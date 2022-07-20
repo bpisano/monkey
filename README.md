@@ -1,6 +1,4 @@
-## ⚠️ Work in progress. Will be available soon.
-
-# Monkey 🐒
+# Monkey 🐒 (beta)
 
 A strongly typed, verbose implementation of Mongoose in Typescript.
 
