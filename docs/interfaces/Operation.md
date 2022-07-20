@@ -1,4 +1,4 @@
-[monkey](../README.md) / [Exports](../modules.md) / Operation
+[monkey](../README.md) / Operation
 
 # Interface: Operation<Document\>
 
@@ -39,7 +39,7 @@ An operation that can be performed on a MongoDB collection.
 
 #### Defined in
 
-[interfaces/performable.ts:9](https://github.com/bpisano/monkey/blob/e8932a5/src/interfaces/performable.ts#L9)
+[interfaces/performable.ts:9](https://github.com/bpisano/monkey/blob/0cdd6dc/src/interfaces/performable.ts#L9)
 
 ___
 
@@ -49,7 +49,7 @@ ___
 
 #### Defined in
 
-[interfaces/operation.ts:10](https://github.com/bpisano/monkey/blob/e8932a5/src/interfaces/operation.ts#L10)
+[interfaces/operation.ts:10](https://github.com/bpisano/monkey/blob/0cdd6dc/src/interfaces/operation.ts#L10)
 
 ## Methods
 
@@ -75,4 +75,4 @@ ___
 
 #### Defined in
 
-[interfaces/operation.ts:11](https://github.com/bpisano/monkey/blob/e8932a5/src/interfaces/operation.ts#L11)
+[interfaces/operation.ts:11](https://github.com/bpisano/monkey/blob/0cdd6dc/src/interfaces/operation.ts#L11)

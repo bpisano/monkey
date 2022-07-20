@@ -1,4 +1,4 @@
-[monkey](../README.md) / [Exports](../modules.md) / CreateMany
+[monkey](../README.md) / CreateMany
 
 # Class: CreateMany<T\>
 
@@ -43,7 +43,7 @@ Create multiple documents in a collection.
 
 #### Defined in
 
-[queryModifiers/createMany.ts:24](https://github.com/bpisano/monkey/blob/e8932a5/src/queryModifiers/createMany.ts#L24)
+[queryModifiers/createMany.ts:24](https://github.com/bpisano/monkey/blob/0cdd6dc/src/queryModifiers/createMany.ts#L24)
 
 ___
 
@@ -73,4 +73,4 @@ A new CreateMany instance.
 
 #### Defined in
 
-[queryModifiers/createMany.ts:20](https://github.com/bpisano/monkey/blob/e8932a5/src/queryModifiers/createMany.ts#L20)
+[queryModifiers/createMany.ts:20](https://github.com/bpisano/monkey/blob/0cdd6dc/src/queryModifiers/createMany.ts#L20)

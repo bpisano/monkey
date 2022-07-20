@@ -1,4 +1,4 @@
-[monkey](../README.md) / [Exports](../modules.md) / CreateOne
+[monkey](../README.md) / CreateOne
 
 # Class: CreateOne<T\>
 
@@ -43,7 +43,7 @@ Create one document in a collection.
 
 #### Defined in
 
-[queryModifiers/createOne.ts:24](https://github.com/bpisano/monkey/blob/e8932a5/src/queryModifiers/createOne.ts#L24)
+[queryModifiers/createOne.ts:24](https://github.com/bpisano/monkey/blob/0cdd6dc/src/queryModifiers/createOne.ts#L24)
 
 ___
 
@@ -73,4 +73,4 @@ A new CreateOne instance.
 
 #### Defined in
 
-[queryModifiers/createOne.ts:20](https://github.com/bpisano/monkey/blob/e8932a5/src/queryModifiers/createOne.ts#L20)
+[queryModifiers/createOne.ts:20](https://github.com/bpisano/monkey/blob/0cdd6dc/src/queryModifiers/createOne.ts#L20)

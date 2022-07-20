@@ -1,110 +1,80 @@
-monkey / [Exports](modules.md)
+monkey
 
-## ⚠️ Work in progress. Will be available soon.
-
-# Monkey 🐒
-
-A strongly typed, verbose implementation of Mongoose in Typescript.
-
-- **Strongly typed**: prevents query mistakes at compile time.
-- **Verbose**: use natural language to create queries.
-- **Flexible**: create your own modifiers that fits your needs.
-- **Fast**: use Mongoose as the engine.
-
-```ts
-const db = new MongoDB()
-await db.connect('mongodb://127.0.0.1/my_database')
-
-const users = await db.perform(
-    MongoDBQuery.withModel(userModel)
-        .modifier(FindMany.whereKeyEquals('emailVerified', true))
-        .modifier(Sort.ascendingBy('name'))
-        .modifier(Populate.properties(['friends']))
-)
-```
+# monkey
 
 ## Table of contents
 
-## Installation
+### Classes
 
-This package is distributed with npm.
+- [CreateMany](classes/CreateMany.md)
+- [CreateOne](classes/CreateOne.md)
+- [DBOperation](classes/DBOperation.md)
+- [DBQuery](classes/DBQuery.md)
+- [DeleteMany](classes/DeleteMany.md)
+- [DeleteOne](classes/DeleteOne.md)
+- [Exists](classes/Exists.md)
+- [FindMany](classes/FindMany.md)
+- [FindOne](classes/FindOne.md)
+- [Limit](classes/Limit.md)
+- [MongoDB](classes/MongoDB.md)
+- [MongoDBQuery](classes/MongoDBQuery.md)
+- [Populate](classes/Populate.md)
+- [ReplaceOne](classes/ReplaceOne.md)
+- [Sort](classes/Sort.md)
+- [UpdateMany](classes/UpdateMany.md)
+- [UpdateOne](classes/UpdateOne.md)
 
-```bash
-npm install monkey
-```
+### Interfaces
 
-## Documentation
+- [Database](interfaces/Database.md)
+- [Operation](interfaces/Operation.md)
+- [Performable](interfaces/Performable.md)
+- [Query](interfaces/Query.md)
+- [QueryModifier](interfaces/QueryModifier.md)
 
-### Performing a request
+### Type Aliases
 
-To perform a request, you'll need to instantiate a `MongoDB` instance.
+- [AnyArray](README.md#anyarray)
+- [MongooseOperation](README.md#mongooseoperation)
+- [MongoosePrimaryType](README.md#mongooseprimarytype)
+- [MongooseQuery](README.md#mongoosequery)
 
-```ts
-const db = new MongoDB()
-await db.connect('mongodb://127.0.0.1/my_database')
-```
+## Type Aliases
 
-Then, use the `MongoDBQuery` with the model corresponding to the collection you want to query.
+### AnyArray
 
-```ts
-// Returns all the users
-const users = await db.perform(
-    MongoDBQuery.withModel(userModel)
-        .modifier(FindMany.all())
-)
-```
+Ƭ **AnyArray**: `any`[]
 
-Use query modifiers to add parameters to your query using the `.modifier()` function. You can chain them, as many as you need, but note that query modifiers are order sensitive. That means you cannot start your query with a `Sort` modifier. For more infos, see [Creating query modifiers](#creating-query-modifiers).
+#### Defined in
 
-```ts
-// Returns all the users sorted by names
-const users = await db.perform(
-    MongoDBQuery.withModel(userModel)
-        .modifier(FindMany.all())
-        .modifier(Sort.ascendingBy('name'))
-)
-```
+[utils/types/anyArray.ts:1](https://github.com/bpisano/monkey/blob/0cdd6dc/src/utils/types/anyArray.ts#L1)
 
-### Modifiers
+___
 
-#### Finding objects
+### MongooseOperation
 
-`FindOne.withId()`
+Ƭ **MongooseOperation**: `HydratedDocument`<`any`\>
 
-`FindMany.all()`
+#### Defined in
 
-`FindMany.withFilters()`
+[utils/types/mongooseOperation.ts:3](https://github.com/bpisano/monkey/blob/0cdd6dc/src/utils/types/mongooseOperation.ts#L3)
 
-`FindMany.whereKeyEquals()`
+___
 
-#### Creating objects
+### MongoosePrimaryType
 
-`CreateOne.withData()`
+Ƭ **MongoosePrimaryType**: `string` \| `number` \| `boolean` \| `Date`
 
-`CreateMany.withData()`
+#### Defined in
 
-#### Updating objects
+[utils/types/mongoosePrimaryType.ts:1](https://github.com/bpisano/monkey/blob/0cdd6dc/src/utils/types/mongoosePrimaryType.ts#L1)
 
-`UpdateOne.withId()`
+___
 
-`UpdateOne.where()`
+### MongooseQuery
 
-`UpdateMany.where()`
+Ƭ **MongooseQuery**: `Query`<`any`, `any`\>
 
-#### Deleting objects
+#### Defined in
 
-`DeleteOne.withId()`
-
-#### Sorting
-
-`Sort.ascendingBy()`
-
-`Sort.descendingBy()`
-
-#### Populating
-
-`Populate.properties()`
-
-#### Limiting
-
-`Limit.to()`
+[utils/types/mongooseQuery.ts:3](https://github.com/bpisano/monkey/blob/0cdd6dc/src/utils/types/mongooseQuery.ts#L3)

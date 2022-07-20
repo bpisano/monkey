@@ -1,4 +1,4 @@
-[monkey](../README.md) / [Exports](../modules.md) / Populate
+[monkey](../README.md) / Populate
 
 # Class: Populate<T\>
 
@@ -44,7 +44,7 @@ Populate a query's documents.
 
 #### Defined in
 
-[queryModifiers/populate.ts:35](https://github.com/bpisano/monkey/blob/e8932a5/src/queryModifiers/populate.ts#L35)
+[queryModifiers/populate.ts:35](https://github.com/bpisano/monkey/blob/0cdd6dc/src/queryModifiers/populate.ts#L35)
 
 ___
 
@@ -74,7 +74,7 @@ A new Populate instance.
 
 #### Defined in
 
-[queryModifiers/populate.ts:20](https://github.com/bpisano/monkey/blob/e8932a5/src/queryModifiers/populate.ts#L20)
+[queryModifiers/populate.ts:20](https://github.com/bpisano/monkey/blob/0cdd6dc/src/queryModifiers/populate.ts#L20)
 
 ___
 
@@ -104,4 +104,4 @@ A new Populate instance.
 
 #### Defined in
 
-[queryModifiers/populate.ts:31](https://github.com/bpisano/monkey/blob/e8932a5/src/queryModifiers/populate.ts#L31)
+[queryModifiers/populate.ts:31](https://github.com/bpisano/monkey/blob/0cdd6dc/src/queryModifiers/populate.ts#L31)

@@ -1,4 +1,4 @@
-[monkey](../README.md) / [Exports](../modules.md) / Limit
+[monkey](../README.md) / Limit
 
 # Class: Limit<T\>
 
@@ -8,7 +8,7 @@ Limit the result count of a query.
 
 | Name | Type |
 | :------ | :------ |
-| `T` | extends [`AnyArray`](../modules.md#anyarray) |
+| `T` | extends [`AnyArray`](../README.md#anyarray) |
 
 ## Implements
 
@@ -43,7 +43,7 @@ Limit the result count of a query.
 
 #### Defined in
 
-[queryModifiers/limit.ts:24](https://github.com/bpisano/monkey/blob/e8932a5/src/queryModifiers/limit.ts#L24)
+[queryModifiers/limit.ts:24](https://github.com/bpisano/monkey/blob/0cdd6dc/src/queryModifiers/limit.ts#L24)
 
 ___
 
@@ -73,4 +73,4 @@ A new Limit instance.
 
 #### Defined in
 
-[queryModifiers/limit.ts:20](https://github.com/bpisano/monkey/blob/e8932a5/src/queryModifiers/limit.ts#L20)
+[queryModifiers/limit.ts:20](https://github.com/bpisano/monkey/blob/0cdd6dc/src/queryModifiers/limit.ts#L20)

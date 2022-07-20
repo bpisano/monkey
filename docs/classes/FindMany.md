@@ -1,4 +1,4 @@
-[monkey](../README.md) / [Exports](../modules.md) / FindMany
+[monkey](../README.md) / FindMany
 
 # Class: FindMany<T\>
 
@@ -45,7 +45,7 @@ Find multiple documents in a collection.
 
 #### Defined in
 
-[queryModifiers/findMany.ts:48](https://github.com/bpisano/monkey/blob/e8932a5/src/queryModifiers/findMany.ts#L48)
+[queryModifiers/findMany.ts:48](https://github.com/bpisano/monkey/blob/0cdd6dc/src/queryModifiers/findMany.ts#L48)
 
 ___
 
@@ -69,7 +69,7 @@ A new FindMany instance.
 
 #### Defined in
 
-[queryModifiers/findMany.ts:19](https://github.com/bpisano/monkey/blob/e8932a5/src/queryModifiers/findMany.ts#L19)
+[queryModifiers/findMany.ts:19](https://github.com/bpisano/monkey/blob/0cdd6dc/src/queryModifiers/findMany.ts#L19)
 
 ___
 
@@ -99,7 +99,7 @@ A new FindMany instance.
 
 #### Defined in
 
-[queryModifiers/findMany.ts:30](https://github.com/bpisano/monkey/blob/e8932a5/src/queryModifiers/findMany.ts#L30)
+[queryModifiers/findMany.ts:30](https://github.com/bpisano/monkey/blob/0cdd6dc/src/queryModifiers/findMany.ts#L30)
 
 ___
 
@@ -120,7 +120,7 @@ Filter the documents where a given property equals a given value.
 | Name | Type | Description |
 | :------ | :------ | :------ |
 | `key` | `string` | The key of the property to filter on. |
-| `value` | [`MongoosePrimaryType`](../modules.md#mongooseprimarytype) | The value of the property to filter on. |
+| `value` | [`MongoosePrimaryType`](../README.md#mongooseprimarytype) | The value of the property to filter on. |
 
 #### Returns
 
@@ -130,4 +130,4 @@ A new FindMany instance.
 
 #### Defined in
 
-[queryModifiers/findMany.ts:43](https://github.com/bpisano/monkey/blob/e8932a5/src/queryModifiers/findMany.ts#L43)
+[queryModifiers/findMany.ts:43](https://github.com/bpisano/monkey/blob/0cdd6dc/src/queryModifiers/findMany.ts#L43)

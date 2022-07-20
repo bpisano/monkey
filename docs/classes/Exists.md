@@ -1,4 +1,4 @@
-[monkey](../README.md) / [Exports](../modules.md) / Exists
+[monkey](../README.md) / Exists
 
 # Class: Exists<T\>
 
@@ -44,7 +44,7 @@ Test is a document exists in a collection.
 
 #### Defined in
 
-[queryModifiers/exists.ts:35](https://github.com/bpisano/monkey/blob/e8932a5/src/queryModifiers/exists.ts#L35)
+[queryModifiers/exists.ts:35](https://github.com/bpisano/monkey/blob/0cdd6dc/src/queryModifiers/exists.ts#L35)
 
 ___
 
@@ -74,7 +74,7 @@ A new Exists instance.
 
 #### Defined in
 
-[queryModifiers/exists.ts:31](https://github.com/bpisano/monkey/blob/e8932a5/src/queryModifiers/exists.ts#L31)
+[queryModifiers/exists.ts:31](https://github.com/bpisano/monkey/blob/0cdd6dc/src/queryModifiers/exists.ts#L31)
 
 ___
 
@@ -104,4 +104,4 @@ A new Exists instance.
 
 #### Defined in
 
-[queryModifiers/exists.ts:20](https://github.com/bpisano/monkey/blob/e8932a5/src/queryModifiers/exists.ts#L20)
+[queryModifiers/exists.ts:20](https://github.com/bpisano/monkey/blob/0cdd6dc/src/queryModifiers/exists.ts#L20)

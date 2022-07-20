@@ -1,4 +1,4 @@
-[monkey](../README.md) / [Exports](../modules.md) / Performable
+[monkey](../README.md) / Performable
 
 # Interface: Performable<T\>
 
@@ -32,4 +32,4 @@ Any query that can be performed on a MongoDB collection.
 
 #### Defined in
 
-[interfaces/performable.ts:9](https://github.com/bpisano/monkey/blob/e8932a5/src/interfaces/performable.ts#L9)
+[interfaces/performable.ts:9](https://github.com/bpisano/monkey/blob/0cdd6dc/src/interfaces/performable.ts#L9)

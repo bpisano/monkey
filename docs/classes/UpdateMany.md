@@ -1,4 +1,4 @@
-[monkey](../README.md) / [Exports](../modules.md) / UpdateMany
+[monkey](../README.md) / UpdateMany
 
 # Class: UpdateMany<T\>
 
@@ -43,7 +43,7 @@ Update multiple documents in a collection.
 
 #### Defined in
 
-[queryModifiers/updateMany.ts:26](https://github.com/bpisano/monkey/blob/e8932a5/src/queryModifiers/updateMany.ts#L26)
+[queryModifiers/updateMany.ts:26](https://github.com/bpisano/monkey/blob/0cdd6dc/src/queryModifiers/updateMany.ts#L26)
 
 ___
 
@@ -74,4 +74,4 @@ A new UpdateMany instance.
 
 #### Defined in
 
-[queryModifiers/updateMany.ts:22](https://github.com/bpisano/monkey/blob/e8932a5/src/queryModifiers/updateMany.ts#L22)
+[queryModifiers/updateMany.ts:22](https://github.com/bpisano/monkey/blob/0cdd6dc/src/queryModifiers/updateMany.ts#L22)

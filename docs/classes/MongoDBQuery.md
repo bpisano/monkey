@@ -1,4 +1,4 @@
-[monkey](../README.md) / [Exports](../modules.md) / MongoDBQuery
+[monkey](../README.md) / MongoDBQuery
 
 # Class: MongoDBQuery<T\>
 
@@ -41,7 +41,7 @@ A class used to perform a MongoDB query or operation.
 
 #### Defined in
 
-[models/mongoDBQuery.ts:21](https://github.com/bpisano/monkey/blob/e8932a5/src/models/mongoDBQuery.ts#L21)
+[models/mongoDBQuery.ts:21](https://github.com/bpisano/monkey/blob/0cdd6dc/src/models/mongoDBQuery.ts#L21)
 
 ___
 
@@ -71,4 +71,4 @@ A new MongoDBQuery instance.
 
 #### Defined in
 
-[models/mongoDBQuery.ts:17](https://github.com/bpisano/monkey/blob/e8932a5/src/models/mongoDBQuery.ts#L17)
+[models/mongoDBQuery.ts:17](https://github.com/bpisano/monkey/blob/0cdd6dc/src/models/mongoDBQuery.ts#L17)

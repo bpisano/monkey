@@ -1,4 +1,4 @@
-[monkey](../README.md) / [Exports](../modules.md) / UpdateOne
+[monkey](../README.md) / UpdateOne
 
 # Class: UpdateOne<T\>
 
@@ -44,7 +44,7 @@ Update one document in a collection.
 
 #### Defined in
 
-[queryModifiers/updateOne.ts:43](https://github.com/bpisano/monkey/blob/e8932a5/src/queryModifiers/updateOne.ts#L43)
+[queryModifiers/updateOne.ts:43](https://github.com/bpisano/monkey/blob/0cdd6dc/src/queryModifiers/updateOne.ts#L43)
 
 ___
 
@@ -76,7 +76,7 @@ A new UpdateOne instance.
 
 #### Defined in
 
-[queryModifiers/updateOne.ts:39](https://github.com/bpisano/monkey/blob/e8932a5/src/queryModifiers/updateOne.ts#L39)
+[queryModifiers/updateOne.ts:39](https://github.com/bpisano/monkey/blob/0cdd6dc/src/queryModifiers/updateOne.ts#L39)
 
 ___
 
@@ -108,4 +108,4 @@ A new UpdateOne instance.
 
 #### Defined in
 
-[queryModifiers/updateOne.ts:24](https://github.com/bpisano/monkey/blob/e8932a5/src/queryModifiers/updateOne.ts#L24)
+[queryModifiers/updateOne.ts:24](https://github.com/bpisano/monkey/blob/0cdd6dc/src/queryModifiers/updateOne.ts#L24)

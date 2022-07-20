@@ -1,4 +1,4 @@
-[monkey](../README.md) / [Exports](../modules.md) / DeleteOne
+[monkey](../README.md) / DeleteOne
 
 # Class: DeleteOne<T\>
 
@@ -43,7 +43,7 @@ Delete one document in a collection.
 
 #### Defined in
 
-[queryModifiers/deleteOne.ts:24](https://github.com/bpisano/monkey/blob/e8932a5/src/queryModifiers/deleteOne.ts#L24)
+[queryModifiers/deleteOne.ts:24](https://github.com/bpisano/monkey/blob/0cdd6dc/src/queryModifiers/deleteOne.ts#L24)
 
 ___
 
@@ -73,4 +73,4 @@ A new DeleteOne instance.
 
 #### Defined in
 
-[queryModifiers/deleteOne.ts:20](https://github.com/bpisano/monkey/blob/e8932a5/src/queryModifiers/deleteOne.ts#L20)
+[queryModifiers/deleteOne.ts:20](https://github.com/bpisano/monkey/blob/0cdd6dc/src/queryModifiers/deleteOne.ts#L20)

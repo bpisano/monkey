@@ -1,4 +1,4 @@
-[monkey](../README.md) / [Exports](../modules.md) / DeleteMany
+[monkey](../README.md) / DeleteMany
 
 # Class: DeleteMany<T\>
 
@@ -43,7 +43,7 @@ Delete multiple documents in a collection.
 
 #### Defined in
 
-[queryModifiers/deleteMany.ts:24](https://github.com/bpisano/monkey/blob/e8932a5/src/queryModifiers/deleteMany.ts#L24)
+[queryModifiers/deleteMany.ts:24](https://github.com/bpisano/monkey/blob/0cdd6dc/src/queryModifiers/deleteMany.ts#L24)
 
 ___
 
@@ -73,4 +73,4 @@ A new DeleteMany instance.
 
 #### Defined in
 
-[queryModifiers/deleteMany.ts:20](https://github.com/bpisano/monkey/blob/e8932a5/src/queryModifiers/deleteMany.ts#L20)
+[queryModifiers/deleteMany.ts:20](https://github.com/bpisano/monkey/blob/0cdd6dc/src/queryModifiers/deleteMany.ts#L20)
