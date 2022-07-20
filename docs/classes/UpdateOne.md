@@ -1,4 +1,4 @@
-[monkey](../README.md) / UpdateOne
+[Monkey 🐒 - v0.1.0](../README.md) / UpdateOne
 
 # Class: UpdateOne<T\>
 
@@ -18,33 +18,41 @@ Update one document in a collection.
 
 ### Methods
 
-- [modifier](UpdateOne.md#modifier)
-- [with](UpdateOne.md#with)
 - [withId](UpdateOne.md#withid)
+- [with](UpdateOne.md#with)
+- [modifier](UpdateOne.md#modifier)
 
 ## Methods
 
-### modifier
+### withId
 
-▸ **modifier**(`input`): [`DBOperation`](DBOperation.md)<`T`\>
+▸ `Static` **withId**<`T`\>(`id`, `update`, `options?`): [`UpdateOne`](UpdateOne.md)<`T`\>
+
+Filter the document with a given id.
+
+#### Type parameters
+
+| Name |
+| :------ |
+| `T` |
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `input` | `Model`<`T`, {}, {}, {}, `any`\> |
+| Name | Type | Description |
+| :------ | :------ | :------ |
+| `id` | `string` | The id of the document to find. |
+| `update` | `any` | The update to apply to the document. |
+| `options` | `any` | The update options to apply to the update. |
 
 #### Returns
 
-[`DBOperation`](DBOperation.md)<`T`\>
+[`UpdateOne`](UpdateOne.md)<`T`\>
 
-#### Implementation of
-
-[QueryModifier](../interfaces/QueryModifier.md).[modifier](../interfaces/QueryModifier.md#modifier)
+A new UpdateOne instance.
 
 #### Defined in
 
-[queryModifiers/updateOne.ts:43](https://github.com/bpisano/monkey/blob/0cdd6dc/src/queryModifiers/updateOne.ts#L43)
+[queryModifiers/updateOne.ts:24](https://github.com/bpisano/monkey/blob/62534c6/src/queryModifiers/updateOne.ts#L24)
 
 ___
 
@@ -76,36 +84,28 @@ A new UpdateOne instance.
 
 #### Defined in
 
-[queryModifiers/updateOne.ts:39](https://github.com/bpisano/monkey/blob/0cdd6dc/src/queryModifiers/updateOne.ts#L39)
+[queryModifiers/updateOne.ts:39](https://github.com/bpisano/monkey/blob/62534c6/src/queryModifiers/updateOne.ts#L39)
 
 ___
 
-### withId
+### modifier
 
-▸ `Static` **withId**<`T`\>(`id`, `update`, `options?`): [`UpdateOne`](UpdateOne.md)<`T`\>
-
-Filter the document with a given id.
-
-#### Type parameters
-
-| Name |
-| :------ |
-| `T` |
+▸ **modifier**(`input`): [`DBOperation`](DBOperation.md)<`T`\>
 
 #### Parameters
 
-| Name | Type | Description |
-| :------ | :------ | :------ |
-| `id` | `string` | The id of the document to find. |
-| `update` | `any` | The update to apply to the document. |
-| `options` | `any` | The update options to apply to the update. |
+| Name | Type |
+| :------ | :------ |
+| `input` | `Model`<`T`, {}, {}, {}, `any`\> |
 
 #### Returns
 
-[`UpdateOne`](UpdateOne.md)<`T`\>
+[`DBOperation`](DBOperation.md)<`T`\>
 
-A new UpdateOne instance.
+#### Implementation of
+
+[QueryModifier](../interfaces/QueryModifier.md).[modifier](../interfaces/QueryModifier.md#modifier)
 
 #### Defined in
 
-[queryModifiers/updateOne.ts:24](https://github.com/bpisano/monkey/blob/0cdd6dc/src/queryModifiers/updateOne.ts#L24)
+[queryModifiers/updateOne.ts:43](https://github.com/bpisano/monkey/blob/62534c6/src/queryModifiers/updateOne.ts#L43)

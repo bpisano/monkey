@@ -1,4 +1,4 @@
-[monkey](../README.md) / DeleteMany
+[Monkey 🐒 - v0.1.0](../README.md) / DeleteMany
 
 # Class: DeleteMany<T\>
 
@@ -18,34 +18,10 @@ Delete multiple documents in a collection.
 
 ### Methods
 
-- [modifier](DeleteMany.md#modifier)
 - [where](DeleteMany.md#where)
+- [modifier](DeleteMany.md#modifier)
 
 ## Methods
-
-### modifier
-
-▸ **modifier**(`input`): [`DBOperation`](DBOperation.md)<`T`\>
-
-#### Parameters
-
-| Name | Type |
-| :------ | :------ |
-| `input` | `Model`<`T`, {}, {}, {}, `any`\> |
-
-#### Returns
-
-[`DBOperation`](DBOperation.md)<`T`\>
-
-#### Implementation of
-
-[QueryModifier](../interfaces/QueryModifier.md).[modifier](../interfaces/QueryModifier.md#modifier)
-
-#### Defined in
-
-[queryModifiers/deleteMany.ts:24](https://github.com/bpisano/monkey/blob/0cdd6dc/src/queryModifiers/deleteMany.ts#L24)
-
-___
 
 ### where
 
@@ -73,4 +49,28 @@ A new DeleteMany instance.
 
 #### Defined in
 
-[queryModifiers/deleteMany.ts:20](https://github.com/bpisano/monkey/blob/0cdd6dc/src/queryModifiers/deleteMany.ts#L20)
+[queryModifiers/deleteMany.ts:20](https://github.com/bpisano/monkey/blob/62534c6/src/queryModifiers/deleteMany.ts#L20)
+
+___
+
+### modifier
+
+▸ **modifier**(`input`): [`DBOperation`](DBOperation.md)<`T`\>
+
+#### Parameters
+
+| Name | Type |
+| :------ | :------ |
+| `input` | `Model`<`T`, {}, {}, {}, `any`\> |
+
+#### Returns
+
+[`DBOperation`](DBOperation.md)<`T`\>
+
+#### Implementation of
+
+[QueryModifier](../interfaces/QueryModifier.md).[modifier](../interfaces/QueryModifier.md#modifier)
+
+#### Defined in
+
+[queryModifiers/deleteMany.ts:24](https://github.com/bpisano/monkey/blob/62534c6/src/queryModifiers/deleteMany.ts#L24)

@@ -1,4 +1,4 @@
-[monkey](../README.md) / DeleteOne
+[Monkey 🐒 - v0.1.0](../README.md) / DeleteOne
 
 # Class: DeleteOne<T\>
 
@@ -18,34 +18,10 @@ Delete one document in a collection.
 
 ### Methods
 
-- [modifier](DeleteOne.md#modifier)
 - [withId](DeleteOne.md#withid)
+- [modifier](DeleteOne.md#modifier)
 
 ## Methods
-
-### modifier
-
-▸ **modifier**(`input`): [`Operation`](../interfaces/Operation.md)<`T`\>
-
-#### Parameters
-
-| Name | Type |
-| :------ | :------ |
-| `input` | `Model`<`T`, {}, {}, {}, `any`\> |
-
-#### Returns
-
-[`Operation`](../interfaces/Operation.md)<`T`\>
-
-#### Implementation of
-
-[QueryModifier](../interfaces/QueryModifier.md).[modifier](../interfaces/QueryModifier.md#modifier)
-
-#### Defined in
-
-[queryModifiers/deleteOne.ts:24](https://github.com/bpisano/monkey/blob/0cdd6dc/src/queryModifiers/deleteOne.ts#L24)
-
-___
 
 ### withId
 
@@ -73,4 +49,28 @@ A new DeleteOne instance.
 
 #### Defined in
 
-[queryModifiers/deleteOne.ts:20](https://github.com/bpisano/monkey/blob/0cdd6dc/src/queryModifiers/deleteOne.ts#L20)
+[queryModifiers/deleteOne.ts:20](https://github.com/bpisano/monkey/blob/62534c6/src/queryModifiers/deleteOne.ts#L20)
+
+___
+
+### modifier
+
+▸ **modifier**(`input`): [`Operation`](../interfaces/Operation.md)<`T`\>
+
+#### Parameters
+
+| Name | Type |
+| :------ | :------ |
+| `input` | `Model`<`T`, {}, {}, {}, `any`\> |
+
+#### Returns
+
+[`Operation`](../interfaces/Operation.md)<`T`\>
+
+#### Implementation of
+
+[QueryModifier](../interfaces/QueryModifier.md).[modifier](../interfaces/QueryModifier.md#modifier)
+
+#### Defined in
+
+[queryModifiers/deleteOne.ts:24](https://github.com/bpisano/monkey/blob/62534c6/src/queryModifiers/deleteOne.ts#L24)

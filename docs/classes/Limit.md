@@ -1,4 +1,4 @@
-[monkey](../README.md) / Limit
+[Monkey 🐒 - v0.1.0](../README.md) / Limit
 
 # Class: Limit<T\>
 
@@ -18,34 +18,10 @@ Limit the result count of a query.
 
 ### Methods
 
-- [modifier](Limit.md#modifier)
 - [to](Limit.md#to)
+- [modifier](Limit.md#modifier)
 
 ## Methods
-
-### modifier
-
-▸ **modifier**(`input`): [`DBQuery`](DBQuery.md)<`T`\>
-
-#### Parameters
-
-| Name | Type |
-| :------ | :------ |
-| `input` | [`Query`](../interfaces/Query.md)<`T`\> |
-
-#### Returns
-
-[`DBQuery`](DBQuery.md)<`T`\>
-
-#### Implementation of
-
-[QueryModifier](../interfaces/QueryModifier.md).[modifier](../interfaces/QueryModifier.md#modifier)
-
-#### Defined in
-
-[queryModifiers/limit.ts:24](https://github.com/bpisano/monkey/blob/0cdd6dc/src/queryModifiers/limit.ts#L24)
-
-___
 
 ### to
 
@@ -73,4 +49,28 @@ A new Limit instance.
 
 #### Defined in
 
-[queryModifiers/limit.ts:20](https://github.com/bpisano/monkey/blob/0cdd6dc/src/queryModifiers/limit.ts#L20)
+[queryModifiers/limit.ts:20](https://github.com/bpisano/monkey/blob/62534c6/src/queryModifiers/limit.ts#L20)
+
+___
+
+### modifier
+
+▸ **modifier**(`input`): [`DBQuery`](DBQuery.md)<`T`\>
+
+#### Parameters
+
+| Name | Type |
+| :------ | :------ |
+| `input` | [`Query`](../interfaces/Query.md)<`T`\> |
+
+#### Returns
+
+[`DBQuery`](DBQuery.md)<`T`\>
+
+#### Implementation of
+
+[QueryModifier](../interfaces/QueryModifier.md).[modifier](../interfaces/QueryModifier.md#modifier)
+
+#### Defined in
+
+[queryModifiers/limit.ts:24](https://github.com/bpisano/monkey/blob/62534c6/src/queryModifiers/limit.ts#L24)

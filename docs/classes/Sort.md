@@ -1,4 +1,4 @@
-[monkey](../README.md) / Sort
+[Monkey 🐒 - v0.1.0](../README.md) / Sort
 
 # Class: Sort<T\>
 
@@ -18,35 +18,11 @@ Sort the result of a query.
 
 ### Methods
 
-- [modifier](Sort.md#modifier)
 - [ascendingBy](Sort.md#ascendingby)
 - [descendingBy](Sort.md#descendingby)
+- [modifier](Sort.md#modifier)
 
 ## Methods
-
-### modifier
-
-▸ **modifier**(`input`): [`DBQuery`](DBQuery.md)<`T`\>
-
-#### Parameters
-
-| Name | Type |
-| :------ | :------ |
-| `input` | [`Query`](../interfaces/Query.md)<`T`\> |
-
-#### Returns
-
-[`DBQuery`](DBQuery.md)<`T`\>
-
-#### Implementation of
-
-[QueryModifier](../interfaces/QueryModifier.md).[modifier](../interfaces/QueryModifier.md#modifier)
-
-#### Defined in
-
-[queryModifiers/sort.ts:34](https://github.com/bpisano/monkey/blob/0cdd6dc/src/queryModifiers/sort.ts#L34)
-
-___
 
 ### ascendingBy
 
@@ -74,7 +50,7 @@ A new Sort instance.
 
 #### Defined in
 
-[queryModifiers/sort.ts:19](https://github.com/bpisano/monkey/blob/0cdd6dc/src/queryModifiers/sort.ts#L19)
+[queryModifiers/sort.ts:19](https://github.com/bpisano/monkey/blob/62534c6/src/queryModifiers/sort.ts#L19)
 
 ___
 
@@ -104,4 +80,28 @@ A new Sort instance.
 
 #### Defined in
 
-[queryModifiers/sort.ts:30](https://github.com/bpisano/monkey/blob/0cdd6dc/src/queryModifiers/sort.ts#L30)
+[queryModifiers/sort.ts:30](https://github.com/bpisano/monkey/blob/62534c6/src/queryModifiers/sort.ts#L30)
+
+___
+
+### modifier
+
+▸ **modifier**(`input`): [`DBQuery`](DBQuery.md)<`T`\>
+
+#### Parameters
+
+| Name | Type |
+| :------ | :------ |
+| `input` | [`Query`](../interfaces/Query.md)<`T`\> |
+
+#### Returns
+
+[`DBQuery`](DBQuery.md)<`T`\>
+
+#### Implementation of
+
+[QueryModifier](../interfaces/QueryModifier.md).[modifier](../interfaces/QueryModifier.md#modifier)
+
+#### Defined in
+
+[queryModifiers/sort.ts:34](https://github.com/bpisano/monkey/blob/62534c6/src/queryModifiers/sort.ts#L34)

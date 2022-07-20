@@ -1,4 +1,4 @@
-[monkey](../README.md) / Exists
+[Monkey 🐒 - v0.1.0](../README.md) / Exists
 
 # Class: Exists<T\>
 
@@ -18,33 +18,39 @@ Test is a document exists in a collection.
 
 ### Methods
 
-- [modifier](Exists.md#modifier)
-- [where](Exists.md#where)
 - [withId](Exists.md#withid)
+- [where](Exists.md#where)
+- [modifier](Exists.md#modifier)
 
 ## Methods
 
-### modifier
+### withId
 
-▸ **modifier**(`input`): [`Operation`](../interfaces/Operation.md)<`boolean`\>
+▸ `Static` **withId**<`T`\>(`id`): [`Exists`](Exists.md)<`T`\>
+
+Filter the document with a given id.
+
+#### Type parameters
+
+| Name |
+| :------ |
+| `T` |
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `input` | `Model`<`T`, {}, {}, {}, `any`\> |
+| Name | Type | Description |
+| :------ | :------ | :------ |
+| `id` | `string` | The id of the document to find. |
 
 #### Returns
 
-[`Operation`](../interfaces/Operation.md)<`boolean`\>
+[`Exists`](Exists.md)<`T`\>
 
-#### Implementation of
-
-[QueryModifier](../interfaces/QueryModifier.md).[modifier](../interfaces/QueryModifier.md#modifier)
+A new Exists instance.
 
 #### Defined in
 
-[queryModifiers/exists.ts:35](https://github.com/bpisano/monkey/blob/0cdd6dc/src/queryModifiers/exists.ts#L35)
+[queryModifiers/exists.ts:20](https://github.com/bpisano/monkey/blob/62534c6/src/queryModifiers/exists.ts#L20)
 
 ___
 
@@ -74,34 +80,28 @@ A new Exists instance.
 
 #### Defined in
 
-[queryModifiers/exists.ts:31](https://github.com/bpisano/monkey/blob/0cdd6dc/src/queryModifiers/exists.ts#L31)
+[queryModifiers/exists.ts:31](https://github.com/bpisano/monkey/blob/62534c6/src/queryModifiers/exists.ts#L31)
 
 ___
 
-### withId
+### modifier
 
-▸ `Static` **withId**<`T`\>(`id`): [`Exists`](Exists.md)<`T`\>
-
-Filter the document with a given id.
-
-#### Type parameters
-
-| Name |
-| :------ |
-| `T` |
+▸ **modifier**(`input`): [`Operation`](../interfaces/Operation.md)<`boolean`\>
 
 #### Parameters
 
-| Name | Type | Description |
-| :------ | :------ | :------ |
-| `id` | `string` | The id of the document to find. |
+| Name | Type |
+| :------ | :------ |
+| `input` | `Model`<`T`, {}, {}, {}, `any`\> |
 
 #### Returns
 
-[`Exists`](Exists.md)<`T`\>
+[`Operation`](../interfaces/Operation.md)<`boolean`\>
 
-A new Exists instance.
+#### Implementation of
+
+[QueryModifier](../interfaces/QueryModifier.md).[modifier](../interfaces/QueryModifier.md#modifier)
 
 #### Defined in
 
-[queryModifiers/exists.ts:20](https://github.com/bpisano/monkey/blob/0cdd6dc/src/queryModifiers/exists.ts#L20)
+[queryModifiers/exists.ts:35](https://github.com/bpisano/monkey/blob/62534c6/src/queryModifiers/exists.ts#L35)

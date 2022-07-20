@@ -1,4 +1,4 @@
-[monkey](../README.md) / ReplaceOne
+[Monkey 🐒 - v0.1.0](../README.md) / ReplaceOne
 
 # Class: ReplaceOne<T\>
 
@@ -16,21 +16,23 @@ Replace one document in a collection.
 
 ## Table of contents
 
+### Methods
+
+- [withId](ReplaceOne.md#withid)
+- [where](ReplaceOne.md#where)
+- [modifier](ReplaceOne.md#modifier)
+
 ### Constructors
 
 - [constructor](ReplaceOne.md#constructor)
 
-### Methods
+## Methods
 
-- [modifier](ReplaceOne.md#modifier)
-- [where](ReplaceOne.md#where)
-- [withId](ReplaceOne.md#withid)
+### withId
 
-## Constructors
+▸ `Static` **withId**<`T`\>(`id`, `replacement`): [`ReplaceOne`](ReplaceOne.md)<`T`\>
 
-### constructor
-
-• **new ReplaceOne**<`T`\>(`callback`)
+Filter the documents with a given id to replace.
 
 #### Type parameters
 
@@ -40,37 +42,20 @@ Replace one document in a collection.
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `callback` | (`query`: `Model`<`T`, {}, {}, {}, `any`\>) => `void` |
-
-#### Defined in
-
-[queryModifiers/replaceOne.ts:11](https://github.com/bpisano/monkey/blob/0cdd6dc/src/queryModifiers/replaceOne.ts#L11)
-
-## Methods
-
-### modifier
-
-▸ **modifier**(`input`): [`Operation`](../interfaces/Operation.md)<`T`\>
-
-#### Parameters
-
-| Name | Type |
-| :------ | :------ |
-| `input` | `Model`<`T`, {}, {}, {}, `any`\> |
+| Name | Type | Description |
+| :------ | :------ | :------ |
+| `id` | `string` | The id of the document to replace. |
+| `replacement` | `any` | The replacement object. |
 
 #### Returns
 
-[`Operation`](../interfaces/Operation.md)<`T`\>
+[`ReplaceOne`](ReplaceOne.md)<`T`\>
 
-#### Implementation of
-
-[QueryModifier](../interfaces/QueryModifier.md).[modifier](../interfaces/QueryModifier.md#modifier)
+A new ReplaceOne instance.
 
 #### Defined in
 
-[queryModifiers/replaceOne.ts:39](https://github.com/bpisano/monkey/blob/0cdd6dc/src/queryModifiers/replaceOne.ts#L39)
+[queryModifiers/replaceOne.ts:22](https://github.com/bpisano/monkey/blob/62534c6/src/queryModifiers/replaceOne.ts#L22)
 
 ___
 
@@ -101,15 +86,37 @@ A new ReplaceOne instance.
 
 #### Defined in
 
-[queryModifiers/replaceOne.ts:35](https://github.com/bpisano/monkey/blob/0cdd6dc/src/queryModifiers/replaceOne.ts#L35)
+[queryModifiers/replaceOne.ts:35](https://github.com/bpisano/monkey/blob/62534c6/src/queryModifiers/replaceOne.ts#L35)
 
 ___
 
-### withId
+### modifier
 
-▸ `Static` **withId**<`T`\>(`id`, `replacement`): [`ReplaceOne`](ReplaceOne.md)<`T`\>
+▸ **modifier**(`input`): [`Operation`](../interfaces/Operation.md)<`T`\>
 
-Filter the documents with a given id to replace.
+#### Parameters
+
+| Name | Type |
+| :------ | :------ |
+| `input` | `Model`<`T`, {}, {}, {}, `any`\> |
+
+#### Returns
+
+[`Operation`](../interfaces/Operation.md)<`T`\>
+
+#### Implementation of
+
+[QueryModifier](../interfaces/QueryModifier.md).[modifier](../interfaces/QueryModifier.md#modifier)
+
+#### Defined in
+
+[queryModifiers/replaceOne.ts:39](https://github.com/bpisano/monkey/blob/62534c6/src/queryModifiers/replaceOne.ts#L39)
+
+## Constructors
+
+### constructor
+
+• **new ReplaceOne**<`T`\>(`callback`)
 
 #### Type parameters
 
@@ -119,17 +126,10 @@ Filter the documents with a given id to replace.
 
 #### Parameters
 
-| Name | Type | Description |
-| :------ | :------ | :------ |
-| `id` | `string` | The id of the document to replace. |
-| `replacement` | `any` | The replacement object. |
-
-#### Returns
-
-[`ReplaceOne`](ReplaceOne.md)<`T`\>
-
-A new ReplaceOne instance.
+| Name | Type |
+| :------ | :------ |
+| `callback` | (`query`: `Model`<`T`, {}, {}, {}, `any`\>) => `void` |
 
 #### Defined in
 
-[queryModifiers/replaceOne.ts:22](https://github.com/bpisano/monkey/blob/0cdd6dc/src/queryModifiers/replaceOne.ts#L22)
+[queryModifiers/replaceOne.ts:11](https://github.com/bpisano/monkey/blob/62534c6/src/queryModifiers/replaceOne.ts#L11)

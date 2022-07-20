@@ -1,4 +1,4 @@
-[monkey](../README.md) / DBOperation
+[Monkey 🐒 - v0.1.0](../README.md) / DBOperation
 
 # Class: DBOperation<Document\>
 
@@ -48,7 +48,7 @@ A class that contains a MongoDB operation.
 
 #### Defined in
 
-[models/dbOperation.ts:10](https://github.com/bpisano/monkey/blob/0cdd6dc/src/models/dbOperation.ts#L10)
+[models/dbOperation.ts:10](https://github.com/bpisano/monkey/blob/62534c6/src/models/dbOperation.ts#L10)
 
 ## Properties
 
@@ -58,7 +58,7 @@ A class that contains a MongoDB operation.
 
 #### Defined in
 
-[models/dbOperation.ts:10](https://github.com/bpisano/monkey/blob/0cdd6dc/src/models/dbOperation.ts#L10)
+[models/dbOperation.ts:10](https://github.com/bpisano/monkey/blob/62534c6/src/models/dbOperation.ts#L10)
 
 ## Accessors
 
@@ -72,7 +72,7 @@ A class that contains a MongoDB operation.
 
 #### Defined in
 
-[models/dbOperation.ts:12](https://github.com/bpisano/monkey/blob/0cdd6dc/src/models/dbOperation.ts#L12)
+[models/dbOperation.ts:12](https://github.com/bpisano/monkey/blob/62534c6/src/models/dbOperation.ts#L12)
 
 ## Methods
 
@@ -98,4 +98,4 @@ A class that contains a MongoDB operation.
 
 #### Defined in
 
-[models/dbOperation.ts:16](https://github.com/bpisano/monkey/blob/0cdd6dc/src/models/dbOperation.ts#L16)
+[models/dbOperation.ts:16](https://github.com/bpisano/monkey/blob/62534c6/src/models/dbOperation.ts#L16)

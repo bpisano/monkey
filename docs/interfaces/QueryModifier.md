@@ -1,4 +1,4 @@
-[monkey](../README.md) / QueryModifier
+[Monkey 🐒 - v0.1.0](../README.md) / QueryModifier
 
 # Interface: QueryModifier<Input, Output\>
 
@@ -51,4 +51,4 @@ A modifier that returns a new query.
 
 #### Defined in
 
-[interfaces/queryModifier.ts:5](https://github.com/bpisano/monkey/blob/0cdd6dc/src/interfaces/queryModifier.ts#L5)
+[interfaces/queryModifier.ts:5](https://github.com/bpisano/monkey/blob/62534c6/src/interfaces/queryModifier.ts#L5)

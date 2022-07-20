@@ -1,4 +1,4 @@
-[monkey](../README.md) / Query
+[Monkey 🐒 - v0.1.0](../README.md) / Query
 
 # Interface: Query<Document\>
 
@@ -24,14 +24,24 @@ A query that can be performed on a MongoDB collection.
 
 ### Properties
 
-- [databaseQuery](Query.md#databasequery)
 - [mongooseQuery](Query.md#mongoosequery)
+- [databaseQuery](Query.md#databasequery)
 
 ### Methods
 
 - [modifier](Query.md#modifier)
 
 ## Properties
+
+### mongooseQuery
+
+• **mongooseQuery**: [`MongooseQuery`](../README.md#mongoosequery)
+
+#### Defined in
+
+[interfaces/query.ts:9](https://github.com/bpisano/monkey/blob/62534c6/src/interfaces/query.ts#L9)
+
+___
 
 ### databaseQuery
 
@@ -43,17 +53,7 @@ A query that can be performed on a MongoDB collection.
 
 #### Defined in
 
-[interfaces/performable.ts:9](https://github.com/bpisano/monkey/blob/0cdd6dc/src/interfaces/performable.ts#L9)
-
-___
-
-### mongooseQuery
-
-• **mongooseQuery**: [`MongooseQuery`](../README.md#mongoosequery)
-
-#### Defined in
-
-[interfaces/query.ts:9](https://github.com/bpisano/monkey/blob/0cdd6dc/src/interfaces/query.ts#L9)
+[interfaces/performable.ts:9](https://github.com/bpisano/monkey/blob/62534c6/src/interfaces/performable.ts#L9)
 
 ## Methods
 
@@ -79,4 +79,4 @@ ___
 
 #### Defined in
 
-[interfaces/query.ts:10](https://github.com/bpisano/monkey/blob/0cdd6dc/src/interfaces/query.ts#L10)
+[interfaces/query.ts:10](https://github.com/bpisano/monkey/blob/62534c6/src/interfaces/query.ts#L10)

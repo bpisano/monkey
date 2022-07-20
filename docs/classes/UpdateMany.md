@@ -1,4 +1,4 @@
-[monkey](../README.md) / UpdateMany
+[Monkey 🐒 - v0.1.0](../README.md) / UpdateMany
 
 # Class: UpdateMany<T\>
 
@@ -18,34 +18,10 @@ Update multiple documents in a collection.
 
 ### Methods
 
-- [modifier](UpdateMany.md#modifier)
 - [where](UpdateMany.md#where)
+- [modifier](UpdateMany.md#modifier)
 
 ## Methods
-
-### modifier
-
-▸ **modifier**(`input`): [`DBOperation`](DBOperation.md)<`T`[]\>
-
-#### Parameters
-
-| Name | Type |
-| :------ | :------ |
-| `input` | `Model`<`T`, {}, {}, {}, `any`\> |
-
-#### Returns
-
-[`DBOperation`](DBOperation.md)<`T`[]\>
-
-#### Implementation of
-
-[QueryModifier](../interfaces/QueryModifier.md).[modifier](../interfaces/QueryModifier.md#modifier)
-
-#### Defined in
-
-[queryModifiers/updateMany.ts:26](https://github.com/bpisano/monkey/blob/0cdd6dc/src/queryModifiers/updateMany.ts#L26)
-
-___
 
 ### where
 
@@ -74,4 +50,28 @@ A new UpdateMany instance.
 
 #### Defined in
 
-[queryModifiers/updateMany.ts:22](https://github.com/bpisano/monkey/blob/0cdd6dc/src/queryModifiers/updateMany.ts#L22)
+[queryModifiers/updateMany.ts:22](https://github.com/bpisano/monkey/blob/62534c6/src/queryModifiers/updateMany.ts#L22)
+
+___
+
+### modifier
+
+▸ **modifier**(`input`): [`DBOperation`](DBOperation.md)<`T`[]\>
+
+#### Parameters
+
+| Name | Type |
+| :------ | :------ |
+| `input` | `Model`<`T`, {}, {}, {}, `any`\> |
+
+#### Returns
+
+[`DBOperation`](DBOperation.md)<`T`[]\>
+
+#### Implementation of
+
+[QueryModifier](../interfaces/QueryModifier.md).[modifier](../interfaces/QueryModifier.md#modifier)
+
+#### Defined in
+
+[queryModifiers/updateMany.ts:26](https://github.com/bpisano/monkey/blob/62534c6/src/queryModifiers/updateMany.ts#L26)

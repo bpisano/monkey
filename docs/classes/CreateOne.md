@@ -1,4 +1,4 @@
-[monkey](../README.md) / CreateOne
+[Monkey 🐒 - v0.1.0](../README.md) / CreateOne
 
 # Class: CreateOne<T\>
 
@@ -18,40 +18,27 @@ Create one document in a collection.
 
 ### Methods
 
-- [modifier](CreateOne.md#modifier)
 - [withData](CreateOne.md#withdata)
+- [modifier](CreateOne.md#modifier)
 
 ## Methods
-
-### modifier
-
-▸ **modifier**(`input`): [`DBOperation`](DBOperation.md)<`T`\>
-
-#### Parameters
-
-| Name | Type |
-| :------ | :------ |
-| `input` | `Model`<`T`, {}, {}, {}, `any`\> |
-
-#### Returns
-
-[`DBOperation`](DBOperation.md)<`T`\>
-
-#### Implementation of
-
-[QueryModifier](../interfaces/QueryModifier.md).[modifier](../interfaces/QueryModifier.md#modifier)
-
-#### Defined in
-
-[queryModifiers/createOne.ts:24](https://github.com/bpisano/monkey/blob/0cdd6dc/src/queryModifiers/createOne.ts#L24)
-
-___
 
 ### withData
 
 ▸ `Static` **withData**<`T`\>(`data`): [`CreateOne`](CreateOne.md)<`T`\>
 
 Use an object to create a document in a collection.
+
+**`Example`**
+
+```ts
+const createdUser = await db.perform(
+ MongoDBQuery.withModel(userModel)
+   .modifier(
+     CreateOne.withData({ name: 'John Doe' })
+   )
+)
+```
 
 #### Type parameters
 
@@ -73,4 +60,28 @@ A new CreateOne instance.
 
 #### Defined in
 
-[queryModifiers/createOne.ts:20](https://github.com/bpisano/monkey/blob/0cdd6dc/src/queryModifiers/createOne.ts#L20)
+[queryModifiers/createOne.ts:30](https://github.com/bpisano/monkey/blob/62534c6/src/queryModifiers/createOne.ts#L30)
+
+___
+
+### modifier
+
+▸ **modifier**(`input`): [`DBOperation`](DBOperation.md)<`T`\>
+
+#### Parameters
+
+| Name | Type |
+| :------ | :------ |
+| `input` | `Model`<`T`, {}, {}, {}, `any`\> |
+
+#### Returns
+
+[`DBOperation`](DBOperation.md)<`T`\>
+
+#### Implementation of
+
+[QueryModifier](../interfaces/QueryModifier.md).[modifier](../interfaces/QueryModifier.md#modifier)
+
+#### Defined in
+
+[queryModifiers/createOne.ts:34](https://github.com/bpisano/monkey/blob/62534c6/src/queryModifiers/createOne.ts#L34)

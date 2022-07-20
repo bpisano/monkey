@@ -1,4 +1,4 @@
-[monkey](../README.md) / CreateMany
+[Monkey 🐒 - v0.1.0](../README.md) / CreateMany
 
 # Class: CreateMany<T\>
 
@@ -18,40 +18,30 @@ Create multiple documents in a collection.
 
 ### Methods
 
-- [modifier](CreateMany.md#modifier)
 - [withData](CreateMany.md#withdata)
+- [modifier](CreateMany.md#modifier)
 
 ## Methods
-
-### modifier
-
-▸ **modifier**(`input`): [`DBOperation`](DBOperation.md)<`T`\>
-
-#### Parameters
-
-| Name | Type |
-| :------ | :------ |
-| `input` | `Model`<`T`, {}, {}, {}, `any`\> |
-
-#### Returns
-
-[`DBOperation`](DBOperation.md)<`T`\>
-
-#### Implementation of
-
-[QueryModifier](../interfaces/QueryModifier.md).[modifier](../interfaces/QueryModifier.md#modifier)
-
-#### Defined in
-
-[queryModifiers/createMany.ts:24](https://github.com/bpisano/monkey/blob/0cdd6dc/src/queryModifiers/createMany.ts#L24)
-
-___
 
 ### withData
 
 ▸ `Static` **withData**<`T`\>(`data`): [`CreateMany`](CreateMany.md)<`T`\>
 
 Use an array of data to create multiple documents in a collection.
+
+**`Example`**
+
+```ts
+const createdUsers = await db.perform(
+ MongoDBQuery.withModel(userModel)
+   .modifier(
+     CreateMany.withData([
+       { name: 'John Doe' },
+       { name: 'Jane Doe' }
+     ])
+   )
+)
+```
 
 #### Type parameters
 
@@ -73,4 +63,28 @@ A new CreateMany instance.
 
 #### Defined in
 
-[queryModifiers/createMany.ts:20](https://github.com/bpisano/monkey/blob/0cdd6dc/src/queryModifiers/createMany.ts#L20)
+[queryModifiers/createMany.ts:32](https://github.com/bpisano/monkey/blob/62534c6/src/queryModifiers/createMany.ts#L32)
+
+___
+
+### modifier
+
+▸ **modifier**(`input`): [`DBOperation`](DBOperation.md)<`T`\>
+
+#### Parameters
+
+| Name | Type |
+| :------ | :------ |
+| `input` | `Model`<`T`, {}, {}, {}, `any`\> |
+
+#### Returns
+
+[`DBOperation`](DBOperation.md)<`T`\>
+
+#### Implementation of
+
+[QueryModifier](../interfaces/QueryModifier.md).[modifier](../interfaces/QueryModifier.md#modifier)
+
+#### Defined in
+
+[queryModifiers/createMany.ts:36](https://github.com/bpisano/monkey/blob/62534c6/src/queryModifiers/createMany.ts#L36)

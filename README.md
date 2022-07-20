@@ -23,19 +23,27 @@ const users = await db.perform(
 
 ## Table of contents
 
+- [Installation](installation)
+- [Documentation](documentation)
+
+
 ## Installation
 
 This package is distributed with npm.
 
 ```bash
+# npm
 npm install monkey
+
+# yarn
+yarn add monkey
 ```
 
 ## Documentation
 
 ### Performing a request
 
-To perform a request, you'll need to instantiate a `MongoDB` instance.
+To perform a request, you'll need to instantiate a `MongoDB` instance and connect it to your MongoDB database.
 
 ```ts
 const db = new MongoDB()
@@ -63,46 +71,6 @@ const users = await db.perform(
 )
 ```
 
-### Modifiers
+### Query modifiers
 
-#### Finding objects
-
-`FindOne.withId()`
-
-`FindMany.all()`
-
-`FindMany.withFilters()`
-
-`FindMany.whereKeyEquals()`
-
-#### Creating objects
-
-`CreateOne.withData()`
-
-`CreateMany.withData()`
-
-#### Updating objects
-
-`UpdateOne.withId()`
-
-`UpdateOne.where()`
-
-`UpdateMany.where()`
-
-#### Deleting objects
-
-`DeleteOne.withId()`
-
-#### Sorting
-
-`Sort.ascendingBy()`
-
-`Sort.descendingBy()`
-
-#### Populating
-
-`Populate.properties()`
-
-#### Limiting
-
-`Limit.to()`
+See all query modifiers in the [documentation](./docs/README.md).

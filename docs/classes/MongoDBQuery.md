@@ -1,4 +1,4 @@
-[monkey](../README.md) / MongoDBQuery
+[Monkey 🐒 - v0.1.0](../README.md) / MongoDBQuery
 
 # Class: MongoDBQuery<T\>
 
@@ -14,36 +14,10 @@ A class used to perform a MongoDB query or operation.
 
 ### Methods
 
-- [modifier](MongoDBQuery.md#modifier)
 - [withModel](MongoDBQuery.md#withmodel)
+- [modifier](MongoDBQuery.md#modifier)
 
 ## Methods
-
-### modifier
-
-▸ **modifier**<`Output`\>(`input`): `Output`
-
-#### Type parameters
-
-| Name |
-| :------ |
-| `Output` |
-
-#### Parameters
-
-| Name | Type |
-| :------ | :------ |
-| `input` | [`QueryModifier`](../interfaces/QueryModifier.md)<`Model`<`T`, {}, {}, {}, `any`\>, `Output`\> |
-
-#### Returns
-
-`Output`
-
-#### Defined in
-
-[models/mongoDBQuery.ts:21](https://github.com/bpisano/monkey/blob/0cdd6dc/src/models/mongoDBQuery.ts#L21)
-
-___
 
 ### withModel
 
@@ -71,4 +45,30 @@ A new MongoDBQuery instance.
 
 #### Defined in
 
-[models/mongoDBQuery.ts:17](https://github.com/bpisano/monkey/blob/0cdd6dc/src/models/mongoDBQuery.ts#L17)
+[models/mongoDBQuery.ts:17](https://github.com/bpisano/monkey/blob/62534c6/src/models/mongoDBQuery.ts#L17)
+
+___
+
+### modifier
+
+▸ **modifier**<`Output`\>(`input`): `Output`
+
+#### Type parameters
+
+| Name |
+| :------ |
+| `Output` |
+
+#### Parameters
+
+| Name | Type |
+| :------ | :------ |
+| `input` | [`QueryModifier`](../interfaces/QueryModifier.md)<`Model`<`T`, {}, {}, {}, `any`\>, `Output`\> |
+
+#### Returns
+
+`Output`
+
+#### Defined in
+
+[models/mongoDBQuery.ts:21](https://github.com/bpisano/monkey/blob/62534c6/src/models/mongoDBQuery.ts#L21)

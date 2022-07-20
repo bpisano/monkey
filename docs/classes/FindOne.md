@@ -1,4 +1,4 @@
-[monkey](../README.md) / FindOne
+[Monkey 🐒 - v0.1.0](../README.md) / FindOne
 
 # Class: FindOne<T\>
 
@@ -18,33 +18,39 @@ Find one document in a collection.
 
 ### Methods
 
-- [modifier](FindOne.md#modifier)
-- [where](FindOne.md#where)
 - [withId](FindOne.md#withid)
+- [where](FindOne.md#where)
+- [modifier](FindOne.md#modifier)
 
 ## Methods
 
-### modifier
+### withId
 
-▸ **modifier**(`input`): [`DBQuery`](DBQuery.md)<`T`\>
+▸ `Static` **withId**<`T`\>(`id`): [`FindOne`](FindOne.md)<`T`\>
 
-#### Parameters
+Filter the documents with a given id.
+
+#### Type parameters
 
 | Name | Type |
 | :------ | :------ |
-| `input` | `Model`<`T`, {}, {}, {}, `any`\> |
+| `T` | extends `Document`<`any`, `any`, `any`, `T`\> |
+
+#### Parameters
+
+| Name | Type | Description |
+| :------ | :------ | :------ |
+| `id` | `string` | The id of the document to find. |
 
 #### Returns
 
-[`DBQuery`](DBQuery.md)<`T`\>
+[`FindOne`](FindOne.md)<`T`\>
 
-#### Implementation of
-
-[QueryModifier](../interfaces/QueryModifier.md).[modifier](../interfaces/QueryModifier.md#modifier)
+A new FindOne instance.
 
 #### Defined in
 
-[queryModifiers/findOne.ts:35](https://github.com/bpisano/monkey/blob/0cdd6dc/src/queryModifiers/findOne.ts#L35)
+[queryModifiers/findOne.ts:20](https://github.com/bpisano/monkey/blob/62534c6/src/queryModifiers/findOne.ts#L20)
 
 ___
 
@@ -74,34 +80,28 @@ A new FindOne instance.
 
 #### Defined in
 
-[queryModifiers/findOne.ts:31](https://github.com/bpisano/monkey/blob/0cdd6dc/src/queryModifiers/findOne.ts#L31)
+[queryModifiers/findOne.ts:31](https://github.com/bpisano/monkey/blob/62534c6/src/queryModifiers/findOne.ts#L31)
 
 ___
 
-### withId
+### modifier
 
-▸ `Static` **withId**<`T`\>(`id`): [`FindOne`](FindOne.md)<`T`\>
-
-Filter the documents with a given id.
-
-#### Type parameters
-
-| Name | Type |
-| :------ | :------ |
-| `T` | extends `Document`<`any`, `any`, `any`, `T`\> |
+▸ **modifier**(`input`): [`DBQuery`](DBQuery.md)<`T`\>
 
 #### Parameters
 
-| Name | Type | Description |
-| :------ | :------ | :------ |
-| `id` | `string` | The id of the document to find. |
+| Name | Type |
+| :------ | :------ |
+| `input` | `Model`<`T`, {}, {}, {}, `any`\> |
 
 #### Returns
 
-[`FindOne`](FindOne.md)<`T`\>
+[`DBQuery`](DBQuery.md)<`T`\>
 
-A new FindOne instance.
+#### Implementation of
+
+[QueryModifier](../interfaces/QueryModifier.md).[modifier](../interfaces/QueryModifier.md#modifier)
 
 #### Defined in
 
-[queryModifiers/findOne.ts:20](https://github.com/bpisano/monkey/blob/0cdd6dc/src/queryModifiers/findOne.ts#L20)
+[queryModifiers/findOne.ts:35](https://github.com/bpisano/monkey/blob/62534c6/src/queryModifiers/findOne.ts#L35)

@@ -1,4 +1,4 @@
-[monkey](../README.md) / Populate
+[Monkey 🐒 - v0.1.0](../README.md) / Populate
 
 # Class: Populate<T\>
 
@@ -18,35 +18,11 @@ Populate a query's documents.
 
 ### Methods
 
-- [modifier](Populate.md#modifier)
 - [properties](Populate.md#properties)
 - [with](Populate.md#with)
+- [modifier](Populate.md#modifier)
 
 ## Methods
-
-### modifier
-
-▸ **modifier**(`input`): [`DBQuery`](DBQuery.md)<`T`\>
-
-#### Parameters
-
-| Name | Type |
-| :------ | :------ |
-| `input` | [`Performable`](../interfaces/Performable.md)<`T`\> |
-
-#### Returns
-
-[`DBQuery`](DBQuery.md)<`T`\>
-
-#### Implementation of
-
-[QueryModifier](../interfaces/QueryModifier.md).[modifier](../interfaces/QueryModifier.md#modifier)
-
-#### Defined in
-
-[queryModifiers/populate.ts:35](https://github.com/bpisano/monkey/blob/0cdd6dc/src/queryModifiers/populate.ts#L35)
-
-___
 
 ### properties
 
@@ -74,7 +50,7 @@ A new Populate instance.
 
 #### Defined in
 
-[queryModifiers/populate.ts:20](https://github.com/bpisano/monkey/blob/0cdd6dc/src/queryModifiers/populate.ts#L20)
+[queryModifiers/populate.ts:20](https://github.com/bpisano/monkey/blob/62534c6/src/queryModifiers/populate.ts#L20)
 
 ___
 
@@ -104,4 +80,28 @@ A new Populate instance.
 
 #### Defined in
 
-[queryModifiers/populate.ts:31](https://github.com/bpisano/monkey/blob/0cdd6dc/src/queryModifiers/populate.ts#L31)
+[queryModifiers/populate.ts:31](https://github.com/bpisano/monkey/blob/62534c6/src/queryModifiers/populate.ts#L31)
+
+___
+
+### modifier
+
+▸ **modifier**(`input`): [`DBQuery`](DBQuery.md)<`T`\>
+
+#### Parameters
+
+| Name | Type |
+| :------ | :------ |
+| `input` | [`Performable`](../interfaces/Performable.md)<`T`\> |
+
+#### Returns
+
+[`DBQuery`](DBQuery.md)<`T`\>
+
+#### Implementation of
+
+[QueryModifier](../interfaces/QueryModifier.md).[modifier](../interfaces/QueryModifier.md#modifier)
+
+#### Defined in
+
+[queryModifiers/populate.ts:35](https://github.com/bpisano/monkey/blob/62534c6/src/queryModifiers/populate.ts#L35)

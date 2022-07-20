@@ -1,4 +1,4 @@
-[monkey](../README.md) / Operation
+[Monkey 🐒 - v0.1.0](../README.md) / Operation
 
 # Interface: Operation<Document\>
 
@@ -20,14 +20,24 @@ An operation that can be performed on a MongoDB collection.
 
 ### Properties
 
-- [databaseQuery](Operation.md#databasequery)
 - [mongooseOperation](Operation.md#mongooseoperation)
+- [databaseQuery](Operation.md#databasequery)
 
 ### Methods
 
 - [modifier](Operation.md#modifier)
 
 ## Properties
+
+### mongooseOperation
+
+• **mongooseOperation**: `any`
+
+#### Defined in
+
+[interfaces/operation.ts:10](https://github.com/bpisano/monkey/blob/62534c6/src/interfaces/operation.ts#L10)
+
+___
 
 ### databaseQuery
 
@@ -39,17 +49,7 @@ An operation that can be performed on a MongoDB collection.
 
 #### Defined in
 
-[interfaces/performable.ts:9](https://github.com/bpisano/monkey/blob/0cdd6dc/src/interfaces/performable.ts#L9)
-
-___
-
-### mongooseOperation
-
-• **mongooseOperation**: `any`
-
-#### Defined in
-
-[interfaces/operation.ts:10](https://github.com/bpisano/monkey/blob/0cdd6dc/src/interfaces/operation.ts#L10)
+[interfaces/performable.ts:9](https://github.com/bpisano/monkey/blob/62534c6/src/interfaces/performable.ts#L9)
 
 ## Methods
 
@@ -75,4 +75,4 @@ ___
 
 #### Defined in
 
-[interfaces/operation.ts:11](https://github.com/bpisano/monkey/blob/0cdd6dc/src/interfaces/operation.ts#L11)
+[interfaces/operation.ts:11](https://github.com/bpisano/monkey/blob/62534c6/src/interfaces/operation.ts#L11)

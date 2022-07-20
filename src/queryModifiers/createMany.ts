@@ -16,6 +16,18 @@ export class CreateMany<T> implements QueryModifier<Model<T>, Operation<T>> {
    * An array of data to create multiple documents in a collection.
    * @returns
    * A new CreateMany instance.
+   * @example
+   * ```ts
+   * const createdUsers = await db.perform(
+   *  MongoDBQuery.withModel(userModel)
+   *    .modifier(
+   *      CreateMany.withData([
+   *        { name: 'John Doe' },
+   *        { name: 'Jane Doe' }
+   *      ])
+   *    )
+   * )
+   * ```
    */
   public static withData<T>(data: any[]): CreateMany<T> {
     return new CreateMany((model: Model<T>) => model.create(data));
