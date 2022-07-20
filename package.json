@@ -1,6 +1,6 @@
 {
-  "name": "monkey",
-  "version": "0.1.0",
+  "name": "monkey-db",
+  "version": "0.1.1",
   "description": "A strongly typed, verbose implementation of Mongoose in Typescript.",
   "author": "bpisano",
   "license": "MIT",
@@ -21,8 +21,7 @@
   },
   "dependencies": {
     "mongodb-memory-server": "^8.5.2",
-    "mongoose": "^6.2.3",
-    "monkey": "^0.9.0"
+    "mongoose": "^6.2.3"
   },
   "devDependencies": {
     "@typescript-eslint/eslint-plugin": "^5.12.1",

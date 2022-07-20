@@ -38,10 +38,10 @@ This package is distributed with npm.
 
 ```bash
 # npm
-npm install monkey
+npm install monkey-db
 
 # yarn
-yarn add monkey
+yarn add monkey-db
 ```
 
 ## Documentation
