@@ -41,6 +41,10 @@ yarn add monkey
 
 ## Documentation
 
+### Query modifiers
+
+See all query modifiers in the [package documentation](./docs/README.md).
+
 ### Performing a request
 
 To perform a request, you'll need to instantiate a `MongoDB` instance and connect it to your MongoDB database.
@@ -71,6 +75,88 @@ const users = await db.perform(
 )
 ```
 
-### Query modifiers
+### Creating query modifiers
 
-See all query modifiers in the [documentation](./docs/README.md).
+Monkey comes with a bunch of query modifiers, but you can easily create your to better fits your needs.
+
+Query modifiers takes an input, and returns a new output. As an output, you usually want to return either a `DBQuery` or a `DBOperation` depending of your needs.
+- `DBQuery` contains a `mongooseQuery` property that represents a MongoDB query such as **finding**, **sorting** or **filtering**.
+- `DBOperation` contains a `mongooseOperation` property that represents a MongoDB operation such as **creating**, **updating** or **deleting**.
+
+Both of these types implements the `Performable` interface so you can always retrieve the mongoose query you are working with.
+
+```ts
+export interface Performable<T> {
+    databaseQuery: MongooseQuery | MongooseOperation
+}
+```
+
+#### Creating a query
+
+Say you want to create a query that finds all your users with a `emailVerified` property set to true. You query modifier will take as input your mongoose model, and will output a `DBQuery`.
+
+Declare the `class` as the following:
+
+```ts
+export class FindVerifiedUsers<T extends Document> implement QueryModifier<Model<T>, DBQuery<T>> {}
+```
+
+> `T` is the generic type that represents your mongoose model.
+
+Then implements the `modifier()` method.
+
+```ts
+export class FindVerifiedUsers<T extends Document> implement QueryModifier<Model<T>, DBQuery<T>> {
+    public modifier(input: Model<T>): DBOperation<T> {
+        const query: MongooseQuery = input.find({ emailVerified: true })
+        return new DBQuery(query)
+    }
+}
+```
+
+You can then use your query this way:
+
+```ts
+// Returns all the users with verified email
+const verifiedUsers = await db.perform(
+    MongoDBQuery.withModel(userModel)
+        .modifier(new FindVerifiedUsers())
+)
+```
+
+#### Creating an operation
+
+Say you want to create an operation that create a new user and set its property `emailVerified` to true. You query modifier will take as input your mongoose model, and will output a `DBQuery`.
+
+Declare the `class` as the following:
+
+```ts
+export class CreateVerifiedUser<T extends Document> implement QueryModifier<Model<T>, DBOperation<T>> {
+    public constructor(data: any) {}
+}
+```
+
+> `T` is the generic type that represents your mongoose model.
+
+Then implements the `modifier()` method.
+
+```ts
+export class CreateVerifiedUser<T extends Document> implement QueryModifier<Model<T>, DBOperation<T>> {
+    public constructor(private readonly data: any) {}
+
+    public modifier(input: Model<T>): DBOperation<T> {
+        const operation: MongooseOperation = input.create({ ...this.data, emailVerified: true })
+        return new DBOperation(operation)
+    }
+}
+```
+
+You can then use your operation this way:
+
+```ts
+// Returns the created user with a `emailVerified` property set to true
+const users = await db.perform(
+    MongoDBQuery.withModel(userModel)
+        .modifier(new CreateVerifiedUser({ username: 'bpisano' }))
+)
+```
