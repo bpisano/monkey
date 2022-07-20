@@ -25,7 +25,12 @@ const users = await db.perform(
 
 - [Installation](installation)
 - [Documentation](documentation)
-
+    - [Query modifiers](query-modifiers)
+    - [Performing a request](performing-a-request)
+    - [Creating query modifiers](creating-query-modifiers)
+    - [Mocking data](mocking-data)
+- [Contribution](contribution)
+- [Roadmap](roadmap)
 
 ## Installation
 
@@ -91,6 +96,8 @@ export interface Performable<T> {
 }
 ```
 
+---
+
 #### Creating a query
 
 Say you want to create a query that finds all your users with a `emailVerified` property set to true. You query modifier will take as input your mongoose model, and will output a `DBQuery`.
@@ -123,6 +130,8 @@ const verifiedUsers = await db.perform(
         .modifier(new FindVerifiedUsers())
 )
 ```
+
+---
 
 #### Creating an operation
 
@@ -159,4 +168,18 @@ const users = await db.perform(
     MongoDBQuery.withModel(userModel)
         .modifier(new CreateVerifiedUser({ username: 'bpisano' }))
 )
+```
+
+## Contribution
+
+Work is still in progress and contributions to Monkey are open and highly appreciated. When creating new query modifiers, make sure that:
+- It it verbose. Make use of natural language as much as possible. This makes this package easy to get started with.
+- It is generic enough. Try not to implement very specific use case in this package. Remember, anyone can easily create their own query modifier that fits their needs.
+
+## Roadmap
+
+- [ ] Implementing all the the operations and queries used by mongoose as query modifiers.
+- [ ] Improving verbosity of filters. It would be nice to have something like:
+```ts
+FindMany.where(Property.named('username').equals('bpisano'))
 ```
