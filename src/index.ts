@@ -7,11 +7,14 @@ import { DBQuery } from './models/dbQuery';
 import { MongoDBQuery } from './models/mongoDBQuery';
 import { CreateMany } from './queryModifiers/createMany';
 import { CreateOne } from './queryModifiers/createOne';
+import { DeleteMany } from './queryModifiers/deleteMany';
 import { DeleteOne } from './queryModifiers/deleteOne';
+import { Exists } from './queryModifiers/exists';
 import { FindMany } from './queryModifiers/findMany';
 import { FindOne } from './queryModifiers/findOne';
 import { Limit } from './queryModifiers/limit';
 import { Populate } from './queryModifiers/populate';
+import { ReplaceOne } from './queryModifiers/replaceOne';
 import { Sort } from './queryModifiers/sort';
 import { UpdateMany } from './queryModifiers/updateMany';
 import { UpdateOne } from './queryModifiers/updateOne';
@@ -26,10 +29,13 @@ export {
   CreateMany,
   CreateOne,
   DeleteOne,
+  DeleteMany,
+  Exists,
   FindMany,
   FindOne,
   Limit,
   Populate,
+  ReplaceOne,
   Sort,
   UpdateMany,
   UpdateOne,
