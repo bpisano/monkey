@@ -11,6 +11,8 @@ A strongly typed, verbose implementation of Mongoose in Typescript.
 
 ```ts
 const db = new MongoDB()
+await db.connect('mongodb://127.0.0.1/my_database')
+
 const users = await db.perform(
     MongoDBQuery.withModel(userModel)
         .modifier(FindMany.whereKeyEquals('emailVerified', true))
@@ -37,6 +39,7 @@ To perform a request, you'll need to instantiate a `MongoDB` instance.
 
 ```ts
 const db = new MongoDB()
+await db.connect('mongodb://127.0.0.1/my_database')
 ```
 
 Then, use the `MongoDBQuery` with the model corresponding to the collection you want to query.

@@ -2,6 +2,9 @@ import { Query } from '../interfaces/query';
 import { QueryModifier } from '../interfaces/queryModifier';
 import { MongooseQuery } from '../utils/types/mongooseQuery';
 
+/**
+ * A class that contains a MongoDB query.
+ */
 export class DBQuery<Document> implements Query<Document> {
   public constructor(public readonly mongooseQuery: MongooseQuery) {}
 
