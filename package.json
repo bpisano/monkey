@@ -1,9 +1,11 @@
 {
   "name": "monkey-db",
-  "version": "0.1.2",
+  "version": "0.1.3",
   "description": "A strongly typed, verbose implementation of Mongoose in Typescript.",
   "author": "bpisano",
   "license": "MIT",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
   "scripts": {
     "prebuild": "rimraf dist",
     "build": "tsc",
