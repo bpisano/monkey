@@ -1,3 +1,4 @@
+import { Injectable } from '@nestjs/common';
 import { connect, ConnectOptions } from 'mongoose';
 import { Performable } from '../interfaces/performable';
 import { Database } from './database.service';
@@ -5,6 +6,7 @@ import { Database } from './database.service';
 /**
  * The MongoDB database that can perform queries.
  */
+@Injectable()
 export class MongoDB implements Database {
   /**
    * Connect to the MongoDB database.

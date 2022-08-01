@@ -1,6 +1,6 @@
 {
   "name": "monkey-db",
-  "version": "0.1.3",
+  "version": "0.1.4",
   "description": "A strongly typed, verbose implementation of Mongoose in Typescript.",
   "author": "bpisano",
   "license": "MIT",
@@ -18,6 +18,7 @@
     "generate-doc": "typedoc --plugin typedoc-plugin-markdown --out docs src/index.ts --excludePrivate --readme none --name 'Monkey 🐒' --includeVersion --sort static-first"
   },
   "dependencies": {
+    "@nestjs/common": "^9.0.7",
     "mongodb-memory-server": "^8.5.2",
     "mongoose": "^6.2.3"
   },
