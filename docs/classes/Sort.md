@@ -1,4 +1,4 @@
-[Monkey 🐒 - v0.1.5](../README.md) / Sort
+[Monkey 🐒 - v0.1.6](../README.md) / Sort
 
 # Class: Sort<T\>
 
@@ -50,7 +50,7 @@ A new Sort instance.
 
 #### Defined in
 
-[queryModifiers/sort.ts:19](https://github.com/bpisano/monkey/blob/9279d43/src/queryModifiers/sort.ts#L19)
+[queryModifiers/sort.ts:19](https://github.com/bpisano/monkey/blob/0796f43/src/queryModifiers/sort.ts#L19)
 
 ___
 
@@ -80,7 +80,7 @@ A new Sort instance.
 
 #### Defined in
 
-[queryModifiers/sort.ts:30](https://github.com/bpisano/monkey/blob/9279d43/src/queryModifiers/sort.ts#L30)
+[queryModifiers/sort.ts:30](https://github.com/bpisano/monkey/blob/0796f43/src/queryModifiers/sort.ts#L30)
 
 ___
 
@@ -104,4 +104,4 @@ ___
 
 #### Defined in
 
-[queryModifiers/sort.ts:34](https://github.com/bpisano/monkey/blob/9279d43/src/queryModifiers/sort.ts#L34)
+[queryModifiers/sort.ts:34](https://github.com/bpisano/monkey/blob/0796f43/src/queryModifiers/sort.ts#L34)

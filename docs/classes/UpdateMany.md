@@ -1,4 +1,4 @@
-[Monkey 🐒 - v0.1.5](../README.md) / UpdateMany
+[Monkey 🐒 - v0.1.6](../README.md) / UpdateMany
 
 # Class: UpdateMany<T\>
 
@@ -50,7 +50,7 @@ A new UpdateMany instance.
 
 #### Defined in
 
-[queryModifiers/updateMany.ts:22](https://github.com/bpisano/monkey/blob/9279d43/src/queryModifiers/updateMany.ts#L22)
+[queryModifiers/updateMany.ts:22](https://github.com/bpisano/monkey/blob/0796f43/src/queryModifiers/updateMany.ts#L22)
 
 ___
 
@@ -74,4 +74,4 @@ ___
 
 #### Defined in
 
-[queryModifiers/updateMany.ts:26](https://github.com/bpisano/monkey/blob/9279d43/src/queryModifiers/updateMany.ts#L26)
+[queryModifiers/updateMany.ts:26](https://github.com/bpisano/monkey/blob/0796f43/src/queryModifiers/updateMany.ts#L26)

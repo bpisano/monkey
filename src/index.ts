@@ -5,6 +5,7 @@ import { QueryModifier } from './interfaces/queryModifier';
 import { DBOperation } from './models/dbOperation';
 import { DBQuery } from './models/dbQuery';
 import { MongoDBQuery } from './models/mongoDBQuery';
+import { Count } from './queryModifiers/count';
 import { CreateMany } from './queryModifiers/createMany';
 import { CreateOne } from './queryModifiers/createOne';
 import { DeleteMany } from './queryModifiers/deleteMany';
@@ -36,6 +37,7 @@ export {
   FindOne,
   Limit,
   Offset,
+  Count,
   Populate,
   ReplaceOne,
   Sort,
