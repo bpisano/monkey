@@ -22,7 +22,7 @@ export class Offset<T extends AnyArray> implements QueryModifier<Query<T>, Query
   }
 
   public modifier(input: Query<T>): Query<T> {
-    const query: MongooseQuery = input.mongooseQuery.skip(1);
+    const query: MongooseQuery = input.mongooseQuery.skip(this.offset);
     return new DBQuery<T>(query);
   }
 }
