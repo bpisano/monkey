@@ -1,4 +1,4 @@
-[Monkey 🐒 - v0.1.6](../README.md) / Limit
+[Monkey 🐒 - v0.1.7](../README.md) / Limit
 
 # Class: Limit<T\>
 
@@ -49,7 +49,7 @@ A new Limit instance.
 
 #### Defined in
 
-[queryModifiers/limit.ts:20](https://github.com/bpisano/monkey/blob/0796f43/src/queryModifiers/limit.ts#L20)
+[queryModifiers/limit.ts:20](https://github.com/bpisano/monkey/blob/4b4580e/src/queryModifiers/limit.ts#L20)
 
 ___
 
@@ -73,4 +73,4 @@ ___
 
 #### Defined in
 
-[queryModifiers/limit.ts:24](https://github.com/bpisano/monkey/blob/0796f43/src/queryModifiers/limit.ts#L24)
+[queryModifiers/limit.ts:24](https://github.com/bpisano/monkey/blob/4b4580e/src/queryModifiers/limit.ts#L24)

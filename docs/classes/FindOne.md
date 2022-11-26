@@ -1,4 +1,4 @@
-[Monkey 🐒 - v0.1.6](../README.md) / FindOne
+[Monkey 🐒 - v0.1.7](../README.md) / FindOne
 
 # Class: FindOne<T\>
 
@@ -50,7 +50,7 @@ A new FindOne instance.
 
 #### Defined in
 
-[queryModifiers/findOne.ts:20](https://github.com/bpisano/monkey/blob/0796f43/src/queryModifiers/findOne.ts#L20)
+[queryModifiers/findOne.ts:20](https://github.com/bpisano/monkey/blob/4b4580e/src/queryModifiers/findOne.ts#L20)
 
 ___
 
@@ -80,7 +80,7 @@ A new FindOne instance.
 
 #### Defined in
 
-[queryModifiers/findOne.ts:31](https://github.com/bpisano/monkey/blob/0796f43/src/queryModifiers/findOne.ts#L31)
+[queryModifiers/findOne.ts:31](https://github.com/bpisano/monkey/blob/4b4580e/src/queryModifiers/findOne.ts#L31)
 
 ___
 
@@ -104,4 +104,4 @@ ___
 
 #### Defined in
 
-[queryModifiers/findOne.ts:35](https://github.com/bpisano/monkey/blob/0796f43/src/queryModifiers/findOne.ts#L35)
+[queryModifiers/findOne.ts:35](https://github.com/bpisano/monkey/blob/4b4580e/src/queryModifiers/findOne.ts#L35)

@@ -1,4 +1,4 @@
-[Monkey 🐒 - v0.1.6](../README.md) / DeleteMany
+[Monkey 🐒 - v0.1.7](../README.md) / DeleteMany
 
 # Class: DeleteMany<T\>
 
@@ -49,7 +49,7 @@ A new DeleteMany instance.
 
 #### Defined in
 
-[queryModifiers/deleteMany.ts:20](https://github.com/bpisano/monkey/blob/0796f43/src/queryModifiers/deleteMany.ts#L20)
+[queryModifiers/deleteMany.ts:20](https://github.com/bpisano/monkey/blob/4b4580e/src/queryModifiers/deleteMany.ts#L20)
 
 ___
 
@@ -73,4 +73,4 @@ ___
 
 #### Defined in
 
-[queryModifiers/deleteMany.ts:24](https://github.com/bpisano/monkey/blob/0796f43/src/queryModifiers/deleteMany.ts#L24)
+[queryModifiers/deleteMany.ts:24](https://github.com/bpisano/monkey/blob/4b4580e/src/queryModifiers/deleteMany.ts#L24)

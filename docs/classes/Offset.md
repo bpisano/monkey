@@ -1,4 +1,4 @@
-[Monkey 🐒 - v0.1.6](../README.md) / Offset
+[Monkey 🐒 - v0.1.7](../README.md) / Offset
 
 # Class: Offset<T\>
 
@@ -49,7 +49,7 @@ A new Offset instance.
 
 #### Defined in
 
-[queryModifiers/offset.ts:20](https://github.com/bpisano/monkey/blob/0796f43/src/queryModifiers/offset.ts#L20)
+[queryModifiers/offset.ts:20](https://github.com/bpisano/monkey/blob/4b4580e/src/queryModifiers/offset.ts#L20)
 
 ___
 
@@ -73,4 +73,4 @@ ___
 
 #### Defined in
 
-[queryModifiers/offset.ts:24](https://github.com/bpisano/monkey/blob/0796f43/src/queryModifiers/offset.ts#L24)
+[queryModifiers/offset.ts:24](https://github.com/bpisano/monkey/blob/4b4580e/src/queryModifiers/offset.ts#L24)

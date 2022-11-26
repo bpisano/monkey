@@ -1,4 +1,4 @@
-[Monkey 🐒 - v0.1.6](../README.md) / Count
+[Monkey 🐒 - v0.1.7](../README.md) / Count
 
 # Class: Count<T\>
 
@@ -45,7 +45,7 @@ A new Count instance.
 
 #### Defined in
 
-queryModifiers/count.ts:18
+[queryModifiers/count.ts:18](https://github.com/bpisano/monkey/blob/4b4580e/src/queryModifiers/count.ts#L18)
 
 ___
 
@@ -75,7 +75,7 @@ A new Count instance.
 
 #### Defined in
 
-queryModifiers/count.ts:29
+[queryModifiers/count.ts:29](https://github.com/bpisano/monkey/blob/4b4580e/src/queryModifiers/count.ts#L29)
 
 ___
 
@@ -99,7 +99,7 @@ A new Count instance.
 
 #### Defined in
 
-queryModifiers/count.ts:38
+[queryModifiers/count.ts:38](https://github.com/bpisano/monkey/blob/4b4580e/src/queryModifiers/count.ts#L38)
 
 ___
 
@@ -123,4 +123,4 @@ ___
 
 #### Defined in
 
-queryModifiers/count.ts:42
+[queryModifiers/count.ts:42](https://github.com/bpisano/monkey/blob/4b4580e/src/queryModifiers/count.ts#L42)

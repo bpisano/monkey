@@ -1,4 +1,4 @@
-[Monkey 🐒 - v0.1.6](../README.md) / Query
+[Monkey 🐒 - v0.1.7](../README.md) / Query
 
 # Interface: Query<Document\>
 
@@ -39,7 +39,7 @@ A query that can be performed on a MongoDB collection.
 
 #### Defined in
 
-[interfaces/query.ts:9](https://github.com/bpisano/monkey/blob/0796f43/src/interfaces/query.ts#L9)
+[interfaces/query.ts:9](https://github.com/bpisano/monkey/blob/4b4580e/src/interfaces/query.ts#L9)
 
 ___
 
@@ -53,7 +53,7 @@ ___
 
 #### Defined in
 
-[interfaces/performable.ts:9](https://github.com/bpisano/monkey/blob/0796f43/src/interfaces/performable.ts#L9)
+[interfaces/performable.ts:9](https://github.com/bpisano/monkey/blob/4b4580e/src/interfaces/performable.ts#L9)
 
 ## Methods
 
@@ -79,4 +79,4 @@ ___
 
 #### Defined in
 
-[interfaces/query.ts:10](https://github.com/bpisano/monkey/blob/0796f43/src/interfaces/query.ts#L10)
+[interfaces/query.ts:10](https://github.com/bpisano/monkey/blob/4b4580e/src/interfaces/query.ts#L10)

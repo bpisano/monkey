@@ -1,4 +1,4 @@
-[Monkey 🐒 - v0.1.6](../README.md) / Database
+[Monkey 🐒 - v0.1.7](../README.md) / Database
 
 # Interface: Database
 
@@ -38,4 +38,4 @@ An interface representing database teh can perform queries.
 
 #### Defined in
 
-[services/database.service.ts:7](https://github.com/bpisano/monkey/blob/0796f43/src/services/database.service.ts#L7)
+[services/database.service.ts:7](https://github.com/bpisano/monkey/blob/4b4580e/src/services/database.service.ts#L7)
