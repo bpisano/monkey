@@ -1,6 +1,6 @@
-Monkey 🐒 - v0.1.0
+Monkey 🐒 - v0.1.5
 
-# Monkey 🐒 - v0.1.0
+# Monkey 🐒 - v0.1.5
 
 ## Table of contents
 
@@ -14,6 +14,7 @@ Monkey 🐒 - v0.1.0
 - [FindMany](classes/FindMany.md)
 - [FindOne](classes/FindOne.md)
 - [Limit](classes/Limit.md)
+- [Offset](classes/Offset.md)
 - [Populate](classes/Populate.md)
 - [ReplaceOne](classes/ReplaceOne.md)
 - [Sort](classes/Sort.md)
@@ -47,7 +48,7 @@ Monkey 🐒 - v0.1.0
 
 #### Defined in
 
-[utils/types/anyArray.ts:1](https://github.com/bpisano/monkey/blob/62534c6/src/utils/types/anyArray.ts#L1)
+[utils/types/anyArray.ts:1](https://github.com/bpisano/monkey/blob/9279d43/src/utils/types/anyArray.ts#L1)
 
 ___
 
@@ -57,7 +58,7 @@ ___
 
 #### Defined in
 
-[utils/types/mongooseQuery.ts:3](https://github.com/bpisano/monkey/blob/62534c6/src/utils/types/mongooseQuery.ts#L3)
+[utils/types/mongooseQuery.ts:3](https://github.com/bpisano/monkey/blob/9279d43/src/utils/types/mongooseQuery.ts#L3)
 
 ___
 
@@ -67,7 +68,7 @@ ___
 
 #### Defined in
 
-[utils/types/mongooseOperation.ts:3](https://github.com/bpisano/monkey/blob/62534c6/src/utils/types/mongooseOperation.ts#L3)
+[utils/types/mongooseOperation.ts:3](https://github.com/bpisano/monkey/blob/9279d43/src/utils/types/mongooseOperation.ts#L3)
 
 ___
 
@@ -77,4 +78,4 @@ ___
 
 #### Defined in
 
-[utils/types/mongoosePrimaryType.ts:1](https://github.com/bpisano/monkey/blob/62534c6/src/utils/types/mongoosePrimaryType.ts#L1)
+[utils/types/mongoosePrimaryType.ts:1](https://github.com/bpisano/monkey/blob/9279d43/src/utils/types/mongoosePrimaryType.ts#L1)

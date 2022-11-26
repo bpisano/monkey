@@ -1,4 +1,4 @@
-[Monkey 🐒 - v0.1.0](../README.md) / Exists
+[Monkey 🐒 - v0.1.5](../README.md) / Exists
 
 # Class: Exists<T\>
 
@@ -50,7 +50,7 @@ A new Exists instance.
 
 #### Defined in
 
-[queryModifiers/exists.ts:20](https://github.com/bpisano/monkey/blob/62534c6/src/queryModifiers/exists.ts#L20)
+[queryModifiers/exists.ts:20](https://github.com/bpisano/monkey/blob/9279d43/src/queryModifiers/exists.ts#L20)
 
 ___
 
@@ -80,7 +80,7 @@ A new Exists instance.
 
 #### Defined in
 
-[queryModifiers/exists.ts:31](https://github.com/bpisano/monkey/blob/62534c6/src/queryModifiers/exists.ts#L31)
+[queryModifiers/exists.ts:31](https://github.com/bpisano/monkey/blob/9279d43/src/queryModifiers/exists.ts#L31)
 
 ___
 
@@ -104,4 +104,4 @@ ___
 
 #### Defined in
 
-[queryModifiers/exists.ts:35](https://github.com/bpisano/monkey/blob/62534c6/src/queryModifiers/exists.ts#L35)
+[queryModifiers/exists.ts:35](https://github.com/bpisano/monkey/blob/9279d43/src/queryModifiers/exists.ts#L35)

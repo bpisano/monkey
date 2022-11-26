@@ -13,6 +13,7 @@ import { Exists } from './queryModifiers/exists';
 import { FindMany } from './queryModifiers/findMany';
 import { FindOne } from './queryModifiers/findOne';
 import { Limit } from './queryModifiers/limit';
+import { Offset } from './queryModifiers/offset';
 import { Populate } from './queryModifiers/populate';
 import { ReplaceOne } from './queryModifiers/replaceOne';
 import { Sort } from './queryModifiers/sort';
@@ -34,6 +35,7 @@ export {
   FindMany,
   FindOne,
   Limit,
+  Offset,
   Populate,
   ReplaceOne,
   Sort,

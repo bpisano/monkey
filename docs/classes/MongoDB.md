@@ -1,4 +1,4 @@
-[Monkey 🐒 - v0.1.0](../README.md) / MongoDB
+[Monkey 🐒 - v0.1.5](../README.md) / MongoDB
 
 # Class: MongoDB
 
@@ -46,7 +46,7 @@ Connect to the MongoDB database.
 
 #### Defined in
 
-[services/mongoDB.service.ts:16](https://github.com/bpisano/monkey/blob/62534c6/src/services/mongoDB.service.ts#L16)
+[services/mongoDB.service.ts:18](https://github.com/bpisano/monkey/blob/9279d43/src/services/mongoDB.service.ts#L18)
 
 ___
 
@@ -80,4 +80,4 @@ The result of the query.
 
 #### Defined in
 
-[services/mongoDB.service.ts:28](https://github.com/bpisano/monkey/blob/62534c6/src/services/mongoDB.service.ts#L28)
+[services/mongoDB.service.ts:30](https://github.com/bpisano/monkey/blob/9279d43/src/services/mongoDB.service.ts#L30)

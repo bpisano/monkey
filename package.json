@@ -1,6 +1,6 @@
 {
   "name": "monkey-db",
-  "version": "0.1.4",
+  "version": "0.1.5",
   "description": "A strongly typed, verbose implementation of Mongoose in Typescript.",
   "author": "bpisano",
   "license": "MIT",

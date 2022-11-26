@@ -1,8 +1,8 @@
-[Monkey 🐒 - v0.1.5](../README.md) / Limit
+[Monkey 🐒 - v0.1.5](../README.md) / Offset
 
-# Class: Limit<T\>
+# Class: Offset<T\>
 
-Limit the result count of a query.
+Skip the first n results of a query.
 
 ## Type parameters
 
@@ -18,16 +18,16 @@ Limit the result count of a query.
 
 ### Methods
 
-- [to](Limit.md#to)
-- [modifier](Limit.md#modifier)
+- [by](Offset.md#by)
+- [modifier](Offset.md#modifier)
 
 ## Methods
 
-### to
+### by
 
-▸ `Static` **to**<`T`\>(`limit`): [`Limit`](Limit.md)<`T`\>
+▸ `Static` **by**<`T`\>(`offset`): [`Offset`](Offset.md)<`T`\>
 
-Limit with a given count.
+Offset with a given count.
 
 #### Type parameters
 
@@ -39,23 +39,23 @@ Limit with a given count.
 
 | Name | Type | Description |
 | :------ | :------ | :------ |
-| `limit` | `number` | The number of documents to limit the result to. |
+| `offset` | `number` | The number of documents to skip. |
 
 #### Returns
 
-[`Limit`](Limit.md)<`T`\>
+[`Offset`](Offset.md)<`T`\>
 
-A new Limit instance.
+A new Offset instance.
 
 #### Defined in
 
-[queryModifiers/limit.ts:20](https://github.com/bpisano/monkey/blob/9279d43/src/queryModifiers/limit.ts#L20)
+queryModifiers/offset.ts:20
 
 ___
 
 ### modifier
 
-▸ **modifier**(`input`): [`DBQuery`](DBQuery.md)<`T`\>
+▸ **modifier**(`input`): [`Query`](../interfaces/Query.md)<`T`\>
 
 #### Parameters
 
@@ -65,7 +65,7 @@ ___
 
 #### Returns
 
-[`DBQuery`](DBQuery.md)<`T`\>
+[`Query`](../interfaces/Query.md)<`T`\>
 
 #### Implementation of
 
@@ -73,4 +73,4 @@ ___
 
 #### Defined in
 
-[queryModifiers/limit.ts:24](https://github.com/bpisano/monkey/blob/9279d43/src/queryModifiers/limit.ts#L24)
+queryModifiers/offset.ts:24

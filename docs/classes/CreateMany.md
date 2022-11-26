@@ -1,4 +1,4 @@
-[Monkey 🐒 - v0.1.0](../README.md) / CreateMany
+[Monkey 🐒 - v0.1.5](../README.md) / CreateMany
 
 # Class: CreateMany<T\>
 
@@ -63,7 +63,7 @@ A new CreateMany instance.
 
 #### Defined in
 
-[queryModifiers/createMany.ts:32](https://github.com/bpisano/monkey/blob/62534c6/src/queryModifiers/createMany.ts#L32)
+[queryModifiers/createMany.ts:32](https://github.com/bpisano/monkey/blob/9279d43/src/queryModifiers/createMany.ts#L32)
 
 ___
 
@@ -87,4 +87,4 @@ ___
 
 #### Defined in
 
-[queryModifiers/createMany.ts:36](https://github.com/bpisano/monkey/blob/62534c6/src/queryModifiers/createMany.ts#L36)
+[queryModifiers/createMany.ts:36](https://github.com/bpisano/monkey/blob/9279d43/src/queryModifiers/createMany.ts#L36)

@@ -1,4 +1,4 @@
-[Monkey 🐒 - v0.1.0](../README.md) / ReplaceOne
+[Monkey 🐒 - v0.1.5](../README.md) / ReplaceOne
 
 # Class: ReplaceOne<T\>
 
@@ -55,7 +55,7 @@ A new ReplaceOne instance.
 
 #### Defined in
 
-[queryModifiers/replaceOne.ts:22](https://github.com/bpisano/monkey/blob/62534c6/src/queryModifiers/replaceOne.ts#L22)
+[queryModifiers/replaceOne.ts:22](https://github.com/bpisano/monkey/blob/9279d43/src/queryModifiers/replaceOne.ts#L22)
 
 ___
 
@@ -86,7 +86,7 @@ A new ReplaceOne instance.
 
 #### Defined in
 
-[queryModifiers/replaceOne.ts:35](https://github.com/bpisano/monkey/blob/62534c6/src/queryModifiers/replaceOne.ts#L35)
+[queryModifiers/replaceOne.ts:35](https://github.com/bpisano/monkey/blob/9279d43/src/queryModifiers/replaceOne.ts#L35)
 
 ___
 
@@ -110,7 +110,7 @@ ___
 
 #### Defined in
 
-[queryModifiers/replaceOne.ts:39](https://github.com/bpisano/monkey/blob/62534c6/src/queryModifiers/replaceOne.ts#L39)
+[queryModifiers/replaceOne.ts:39](https://github.com/bpisano/monkey/blob/9279d43/src/queryModifiers/replaceOne.ts#L39)
 
 ## Constructors
 
@@ -132,4 +132,4 @@ ___
 
 #### Defined in
 
-[queryModifiers/replaceOne.ts:11](https://github.com/bpisano/monkey/blob/62534c6/src/queryModifiers/replaceOne.ts#L11)
+[queryModifiers/replaceOne.ts:11](https://github.com/bpisano/monkey/blob/9279d43/src/queryModifiers/replaceOne.ts#L11)

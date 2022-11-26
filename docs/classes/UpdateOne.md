@@ -1,4 +1,4 @@
-[Monkey 🐒 - v0.1.0](../README.md) / UpdateOne
+[Monkey 🐒 - v0.1.5](../README.md) / UpdateOne
 
 # Class: UpdateOne<T\>
 
@@ -52,7 +52,7 @@ A new UpdateOne instance.
 
 #### Defined in
 
-[queryModifiers/updateOne.ts:24](https://github.com/bpisano/monkey/blob/62534c6/src/queryModifiers/updateOne.ts#L24)
+[queryModifiers/updateOne.ts:24](https://github.com/bpisano/monkey/blob/9279d43/src/queryModifiers/updateOne.ts#L24)
 
 ___
 
@@ -84,7 +84,7 @@ A new UpdateOne instance.
 
 #### Defined in
 
-[queryModifiers/updateOne.ts:39](https://github.com/bpisano/monkey/blob/62534c6/src/queryModifiers/updateOne.ts#L39)
+[queryModifiers/updateOne.ts:39](https://github.com/bpisano/monkey/blob/9279d43/src/queryModifiers/updateOne.ts#L39)
 
 ___
 
@@ -108,4 +108,4 @@ ___
 
 #### Defined in
 
-[queryModifiers/updateOne.ts:43](https://github.com/bpisano/monkey/blob/62534c6/src/queryModifiers/updateOne.ts#L43)
+[queryModifiers/updateOne.ts:43](https://github.com/bpisano/monkey/blob/9279d43/src/queryModifiers/updateOne.ts#L43)

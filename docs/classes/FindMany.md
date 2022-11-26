@@ -1,4 +1,4 @@
-[Monkey 🐒 - v0.1.0](../README.md) / FindMany
+[Monkey 🐒 - v0.1.5](../README.md) / FindMany
 
 # Class: FindMany<T\>
 
@@ -45,7 +45,7 @@ A new FindMany instance.
 
 #### Defined in
 
-[queryModifiers/findMany.ts:19](https://github.com/bpisano/monkey/blob/62534c6/src/queryModifiers/findMany.ts#L19)
+[queryModifiers/findMany.ts:19](https://github.com/bpisano/monkey/blob/9279d43/src/queryModifiers/findMany.ts#L19)
 
 ___
 
@@ -75,7 +75,7 @@ A new FindMany instance.
 
 #### Defined in
 
-[queryModifiers/findMany.ts:30](https://github.com/bpisano/monkey/blob/62534c6/src/queryModifiers/findMany.ts#L30)
+[queryModifiers/findMany.ts:30](https://github.com/bpisano/monkey/blob/9279d43/src/queryModifiers/findMany.ts#L30)
 
 ___
 
@@ -106,7 +106,7 @@ A new FindMany instance.
 
 #### Defined in
 
-[queryModifiers/findMany.ts:43](https://github.com/bpisano/monkey/blob/62534c6/src/queryModifiers/findMany.ts#L43)
+[queryModifiers/findMany.ts:43](https://github.com/bpisano/monkey/blob/9279d43/src/queryModifiers/findMany.ts#L43)
 
 ___
 
@@ -130,4 +130,4 @@ ___
 
 #### Defined in
 
-[queryModifiers/findMany.ts:48](https://github.com/bpisano/monkey/blob/62534c6/src/queryModifiers/findMany.ts#L48)
+[queryModifiers/findMany.ts:48](https://github.com/bpisano/monkey/blob/9279d43/src/queryModifiers/findMany.ts#L48)

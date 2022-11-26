@@ -1,4 +1,4 @@
-[Monkey 🐒 - v0.1.0](../README.md) / QueryModifier
+[Monkey 🐒 - v0.1.5](../README.md) / QueryModifier
 
 # Interface: QueryModifier<Input, Output\>
 
@@ -21,6 +21,7 @@ A modifier that returns a new query.
 - [`FindMany`](../classes/FindMany.md)
 - [`FindOne`](../classes/FindOne.md)
 - [`Limit`](../classes/Limit.md)
+- [`Offset`](../classes/Offset.md)
 - [`Populate`](../classes/Populate.md)
 - [`ReplaceOne`](../classes/ReplaceOne.md)
 - [`Sort`](../classes/Sort.md)
@@ -51,4 +52,4 @@ A modifier that returns a new query.
 
 #### Defined in
 
-[interfaces/queryModifier.ts:5](https://github.com/bpisano/monkey/blob/62534c6/src/interfaces/queryModifier.ts#L5)
+[interfaces/queryModifier.ts:5](https://github.com/bpisano/monkey/blob/9279d43/src/interfaces/queryModifier.ts#L5)
