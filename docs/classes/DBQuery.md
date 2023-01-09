@@ -1,4 +1,4 @@
-[Monkey 🐒 - v0.1.7](../README.md) / DBQuery
+[Monkey 🐒 - v0.1.8](../README.md) / DBQuery
 
 # Class: DBQuery<Document\>
 
@@ -52,7 +52,7 @@ A class that contains a MongoDB query.
 
 #### Defined in
 
-[models/dbQuery.ts:9](https://github.com/bpisano/monkey/blob/4b4580e/src/models/dbQuery.ts#L9)
+[models/dbQuery.ts:9](https://github.com/bpisano/monkey/blob/b5eb9a8/src/models/dbQuery.ts#L9)
 
 ## Properties
 
@@ -66,7 +66,7 @@ A class that contains a MongoDB query.
 
 #### Defined in
 
-[models/dbQuery.ts:9](https://github.com/bpisano/monkey/blob/4b4580e/src/models/dbQuery.ts#L9)
+[models/dbQuery.ts:9](https://github.com/bpisano/monkey/blob/b5eb9a8/src/models/dbQuery.ts#L9)
 
 ## Accessors
 
@@ -84,7 +84,7 @@ A class that contains a MongoDB query.
 
 #### Defined in
 
-[models/dbQuery.ts:11](https://github.com/bpisano/monkey/blob/4b4580e/src/models/dbQuery.ts#L11)
+[models/dbQuery.ts:11](https://github.com/bpisano/monkey/blob/b5eb9a8/src/models/dbQuery.ts#L11)
 
 ## Methods
 
@@ -114,4 +114,4 @@ A class that contains a MongoDB query.
 
 #### Defined in
 
-[models/dbQuery.ts:15](https://github.com/bpisano/monkey/blob/4b4580e/src/models/dbQuery.ts#L15)
+[models/dbQuery.ts:15](https://github.com/bpisano/monkey/blob/b5eb9a8/src/models/dbQuery.ts#L15)

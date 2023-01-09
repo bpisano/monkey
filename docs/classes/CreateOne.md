@@ -1,4 +1,4 @@
-[Monkey 🐒 - v0.1.7](../README.md) / CreateOne
+[Monkey 🐒 - v0.1.8](../README.md) / CreateOne
 
 # Class: CreateOne<T\>
 
@@ -60,7 +60,7 @@ A new CreateOne instance.
 
 #### Defined in
 
-[queryModifiers/createOne.ts:30](https://github.com/bpisano/monkey/blob/4b4580e/src/queryModifiers/createOne.ts#L30)
+[queryModifiers/createOne.ts:30](https://github.com/bpisano/monkey/blob/b5eb9a8/src/queryModifiers/createOne.ts#L30)
 
 ___
 
@@ -84,4 +84,4 @@ ___
 
 #### Defined in
 
-[queryModifiers/createOne.ts:34](https://github.com/bpisano/monkey/blob/4b4580e/src/queryModifiers/createOne.ts#L34)
+[queryModifiers/createOne.ts:34](https://github.com/bpisano/monkey/blob/b5eb9a8/src/queryModifiers/createOne.ts#L34)

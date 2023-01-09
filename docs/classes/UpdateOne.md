@@ -1,4 +1,4 @@
-[Monkey 🐒 - v0.1.7](../README.md) / UpdateOne
+[Monkey 🐒 - v0.1.8](../README.md) / UpdateOne
 
 # Class: UpdateOne<T\>
 
@@ -19,7 +19,7 @@ Update one document in a collection.
 ### Methods
 
 - [withId](UpdateOne.md#withid)
-- [with](UpdateOne.md#with)
+- [where](UpdateOne.md#where)
 - [modifier](UpdateOne.md#modifier)
 
 ## Methods
@@ -52,13 +52,13 @@ A new UpdateOne instance.
 
 #### Defined in
 
-[queryModifiers/updateOne.ts:24](https://github.com/bpisano/monkey/blob/4b4580e/src/queryModifiers/updateOne.ts#L24)
+[queryModifiers/updateOne.ts:24](https://github.com/bpisano/monkey/blob/b5eb9a8/src/queryModifiers/updateOne.ts#L24)
 
 ___
 
-### with
+### where
 
-▸ `Static` **with**<`T`\>(`filter`, `update`, `options?`): [`UpdateOne`](UpdateOne.md)<`T`\>
+▸ `Static` **where**<`T`\>(`filter`, `update`, `options?`): [`UpdateOne`](UpdateOne.md)<`T`\>
 
 Filter the documents with a given object.
 
@@ -84,7 +84,7 @@ A new UpdateOne instance.
 
 #### Defined in
 
-[queryModifiers/updateOne.ts:39](https://github.com/bpisano/monkey/blob/4b4580e/src/queryModifiers/updateOne.ts#L39)
+[queryModifiers/updateOne.ts:39](https://github.com/bpisano/monkey/blob/b5eb9a8/src/queryModifiers/updateOne.ts#L39)
 
 ___
 
@@ -108,4 +108,4 @@ ___
 
 #### Defined in
 
-[queryModifiers/updateOne.ts:43](https://github.com/bpisano/monkey/blob/4b4580e/src/queryModifiers/updateOne.ts#L43)
+[queryModifiers/updateOne.ts:43](https://github.com/bpisano/monkey/blob/b5eb9a8/src/queryModifiers/updateOne.ts#L43)
