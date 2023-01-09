@@ -36,8 +36,8 @@ export class UpdateOne<T> implements QueryModifier<Model<T>, Operation<T>> {
    * @returns
    * A new UpdateOne instance.
    */
-  public static with<T>(filter: any, update: any, options: any = { new: true }): UpdateOne<T> {
-    return new UpdateOne((model: Model<T>) => model.findByIdAndUpdate(filter, update, options));
+  public static where<T>(filter: any, update: any, options: any = { new: true }): UpdateOne<T> {
+    return new UpdateOne((model: Model<T>) => model.findOneAndUpdate(filter, update, options));
   }
 
   public modifier(input: Model<T>): DBOperation<T> {
